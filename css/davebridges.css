@@ -1,0 +1,16 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+
+
+#main {
+    width: 80%; 
+    padding: 2%;
+}
+
+#footer {
+    width: 80%; 
+    padding: 2%;
+}
+    
