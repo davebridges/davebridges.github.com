@@ -7,7 +7,8 @@
       xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
-      xmlns:doap="http://usefulinc.com/ns/doap">
+      xmlns:doap="http://usefulinc.com/ns/doap/"
+	  xmlns:doac="http://ramonantonio.net/doac/0.1/">
 
   <head>
     <title dc:title dc:creator>Dave Bridges</title>
@@ -21,21 +22,19 @@
 <h2>Interests</h2>
 <h2>Education and Training</h2>
 <ul>
-<li>BSc. in Biochemistry from <a href="http://bio.ucalgary.ca">The University of Calgary</a></li>
-<li>PhD. in Biochemistry from <a href="http://bio.ucalgary.ca">The University of Calgary</a> in the laboratory of <a href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">Dr. Greg Moorhead</a></li>
-<li>Postdoctoral Fellowship at the <a href="http://lsi.umich.edu">University of Michigan, Life Sciences Institute</a> in the laboratory of <a href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel</a></li>
+<li typeof="doac:education" about="#bsc"><span property="doac:title">BSc.</span> in <span property="doac:subject">Biochemistry</span> from the <a rel="doac:organization" href="http://bio.ucalgary.ca">Department of Biological Sciences</a>, <a rel="doac:organization" href="http://www.ucalgary.ca">University of Calgary</a> (<span property="doac:date-starts">September 1996</span>-<span property="doac:date-ends">June 2000</span>)</li>
+<li typeof="doac:education" about="#phd"><span property="doac:title">PhD.</span> in <span property="doac:subject">Biochemistry</span> from the <a rel="doac:organization" href="http://bio.ucalgary.ca">Department of Biological Sciences</a>, <a rel="doac:organization" href="http://www.ucalgary.ca">University of Calgary</a> in the laboratory of <a href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">Dr. Greg Moorhead</a> (<span property="doac:date-starts">June 2000</span>-<span property="doac:date-ends">May 2005</span>)</li>
+<li typeof="doac:experience" about="#michigan"><span property="doac:position">Postdoctoral Fellow</span> at the <a rel="doac:location" href="http://lsi.umich.edu">Life Sciences Institute</a>, <a rel="doac:location" href="http://www.umich.edu">University of Michigan</a> in the laboratory of <a href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel</a> (<span property="doac:date-starts">June 2005</span>-<span property="doac:date-ends">Current</span>)</li>
 </ul>
 <h2>Publications</h2>
 <p>For a list of my publications see my profile on <a href="http://www.mendeley.com/profiles/dave-bridges/">Mendeley</a> or on <a href="http://www.researcherid.com/rid/A-8825-2010">ResearcherID</a>.
 <h2>Software</h2>
 <ul>
 <li typeof="doap:Project"><a rel="doap:homepage" property="doap:name" href="http://github.com/davebridges/mousedb">MouseDB</a></li>
-<li typeof="doap:Project"><a rel="doap:homepage" property="doap:name" href="http://code.google.com/p/experimentdb/">ExperimentDB</a></li>
+<li typeof="doap:Project"><a rel="doap:homepage" property="doap:name" href="http://code.google.com/p/experimentdb">ExperimentDB</a></li>
 </ul>
 <h2>Contact and Social Media Information</h2>
 <table>
-<tr><th>Homepage</th>
-<td><a rel="foaf:workplaceHomepage" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel/members/">Saltiel Lab Personnel</a>.</td></tr>
 <tr rel="foaf:holdsAccount">
   <span typeof="foaf:OnlineAccount" about="#twitter">
     <th><a rel="foaf:accountServiceHomepage" href="http://twitter.com/">Twitter</a></th>
@@ -46,6 +45,12 @@
   <span typeof="foaf:OnlineAccount" about="#linkedin">
    <th><a rel="foaf:accountServiceHomepage" href="http://www.linkedin.com/">LinkedIn</a></th>
    <td property="foaf:accountName" datatype=""><a href="http://www.linkedin.com/pub/dave-bridges/16/555/128">Dave Bridges</a></td>
+  </span>
+</tr>
+<tr rel="foaf:holdsAccount">
+  <span typeof="foaf:OnlineAccount" about="#gist">
+   <th><a rel="foaf:accountServiceHomepage" href="http://www.gist.com/">Gist</a></th>
+   <td property="foaf:accountName" datatype=""><a href="http://www.gist.com/davebridges">Dave Bridges</a></td>
   </span>
 </tr>
 <tr rel="foaf:holdsAccount">
