@@ -3,14 +3,16 @@ h1 {
     color: white;
 }
 
+a { 
+
+text-decoration: none
+}
 
 #main {
-    width: 80%; 
     padding: 2%;
 }
 
 #footer {
-    width: 80%; 
     padding: 2%;
 }
 
@@ -22,6 +24,10 @@ td {
 	max-width: 450px;
 	}
 
+li {
+	max-width: 450px;
+	}	
+	
 p {
 	/* if width = 30 X font size that gives about 65 characters per line */
 	font-size: 15px;
@@ -31,8 +37,9 @@ p {
 }
 
 img#profile_picture {
-    position:absolute;
-    top:125px;
-    right:207px;
+    position: absolute;
+	top:125px;
+    right: 0px;
+	padding: 2%
 }
     
