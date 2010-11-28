@@ -17,4 +17,22 @@ h1 {
 img {
     border: none;
 	}
+	
+td {
+	max-width: 450px;
+	}
+
+p {
+	/* if width = 30 X font size that gives about 65 characters per line */
+	font-size: 15px;
+	max-width: 450px;
+	/* suggested line height is 2-5px larger than font size*/
+	line-height: 19px;
+}
+
+img#profile_picture {
+    position:absolute;
+    top:125px;
+    right:207px;
+}
     
