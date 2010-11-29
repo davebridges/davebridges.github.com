@@ -9,6 +9,7 @@
 	  xmlns:dcterms="http://purl.org/dc/terms/"
 	  xmlns:bibo="http://purl.org/ontology/bibo/"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	  xmlns:v="http://rdf.data-vocabulary.org/#"
       xmlns:doap="http://usefulinc.com/ns/doap/"
 	  xmlns:doac="http://ramonantonio.net/doac/0.1/"
 	  version="XHTML+RDFa 1.0" xml:lang="en">
@@ -23,8 +24,8 @@
 
 <body>
 <div>
-<h1 typeof="foaf:Person" about="#me" property="foaf:name" id="davebridges">Dave Bridges</h1>
-<img about="#me" src="img/profile_picture.jpg" alt="Dave Bridges" id="profile_picture" rel="foaf:img" rev="foaf:depicts"/>
+<h1 typeof="foaf:Person" about="#me" property="foaf:name v:name" id="davebridges">Dave Bridges</h1>
+<img about="#me" src="img/profile_picture.jpg" alt="Dave Bridges" id="profile_picture" rel="foaf:img v:img" rev="foaf:depicts"/>
 <h2>Interests</h2>
 <ul>
 <li about="#me" rel="foaf:interest">
@@ -41,7 +42,7 @@
 	</tr>
 <tr>
 	<td><a href="http://lsi.umich.edu"><img src="img/lsi_logo.gif" alt="Life Sciences Institute, University of Michigan"/></a></td>
-	<td rel="doac:experience" about="#me" id="michigan" ><span property="doac:position">Postdoctoral Fellow</span> at the <a rel="doac:location" href="http://lsi.umich.edu">Life Sciences Institute</a>, <a rel="doac:location" href="http://www.umich.edu">University of Michigan</a> in the laboratory of <a rel="doac:organization" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel</a> (<span property="doac:date-starts">June 2005</span>-<span property="doac:date-ends">Current</span>)</td>
+	<td rel="doac:experience" about="#me" id="michigan" ><span property="doac:position v:title">Research Fellow</span> at the <a rel="doac:location v:affiliation" href="http://lsi.umich.edu">Life Sciences Institute</a>, <a rel="doac:location v:affiliation" href="http://www.umich.edu">University of Michigan</a> in the laboratory of <a rel="doac:organization v:affiliation" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel</a> (<span property="doac:date-starts">June 2005</span>-<span property="doac:date-ends">Current</span>)</td>
 	</tr>
 </table>
 <h2>Publications</h2>
