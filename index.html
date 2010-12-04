@@ -12,94 +12,164 @@
 	  xmlns:v="http://rdf.data-vocabulary.org/#"
       xmlns:doap="http://usefulinc.com/ns/doap/"
 	  xmlns:doac="http://ramonantonio.net/doac/0.1/"
+	  xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml"
 	  version="XHTML+RDFa 1.0" xml:lang="en">
 
   <head>
+
+<!--This section defines semantic information about the page.-->
     <title>Dave Bridges</title>
-	<base href="http://davebridges.github.com" />
-    <meta property="dc:creator" content="Dave Bridges" />
-    <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#me" />
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
+    <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />	
+	<base href="http://davebridges.github.com" />
+    <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
+    <meta property="dc:creator content="Dave Bridges" />
+    <meta property="og:title" content="Dave Bridges Homepage"/>
+	<meta property="dc:title" content="Dave Bridges Homepage"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="davebridges.github.com"/>
+    <meta property="og:image" content="img/profile_picture.jpg"/>
+    <meta property="og:site_name" content="Dave Bridges Homepage"/>
+    <meta property="fb:admins" content="802530197"/>
+	<meta property="xml:lang" content="en"
+    <meta property="og:description"
+          content="Website for Dave Bridges, a research scientist at the University of Michigan."/>
   </head>
 
 <body>
-<div>
-<h1 typeof="foaf:Person" about="#me" property="foaf:name v:name" id="davebridges">Dave Bridges</h1>
-<img about="#me" src="img/profile_picture.jpg" alt="Dave Bridges" id="profile_picture" rel="foaf:img v:img" rev="foaf:depicts"/>
+<div about="#davebridges" typeof="foaf:Person" class="container_12">
+<!--This section defines semantic information about the Dave Bridges.-->
+<span property="foaf:name" property="v:name" content="Dave Bridges"></span>
+<div class="container_12" id="general">
+<h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
+<div class="grid_4" id="profile-photo">
+<img about="#davebridges" src="img/profile_picture.jpg" alt="Dave Bridges" id="profile_picture" rel="foaf:img v:img" rev="foaf:depicts"/>
+</div>
+<p></p>
+<div class="grid_8" id="interests">
 <h2>Interests</h2>
-<ul>
-<li about="#me" rel="foaf:interest">
-</li>
-</ul>
-<h2>Education and Training</h2>
-<table>
-<tr>
-	<td rowspan="2" align="center"><a href="http://www.ucalgary.ca"><img src="img/ucalgary_logo.jpg" alt="University of Calgary"/></a></td>
-	<td rel="doac:education" about="#me" id="bsc"><span property="doac:title">BSc.</span> in <span property="doac:subject">Biochemistry</span> from the <a rel="doac:organization" href="http://bio.ucalgary.ca">Department of Biological Sciences</a>, <a rel="doac:organization" href="http://www.ucalgary.ca">University of Calgary</a> (<span property="doac:date-starts">September 1996</span>-<span property="doac:date-ends">June 2000</span>)</td>
-	</tr>
-<tr>
-	<td rel="doac:education" about="#me" id="phd"><span property="doac:title">PhD.</span> in <span property="doac:subject">Biochemistry</span> from the <a rel="doac:organization" href="http://bio.ucalgary.ca">Department of Biological Sciences</a>, <a rel="doac:organization" href="http://www.ucalgary.ca">University of Calgary</a> in the laboratory of <a rel="doac:organization" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">Dr. Greg Moorhead</a> (<span property="doac:date-starts">June 2000</span>-<span property="doac:date-ends">May 2005</span>)</td>
-	</tr>
-<tr>
-	<td><a href="http://lsi.umich.edu"><img src="img/lsi_logo.gif" alt="Life Sciences Institute, University of Michigan"/></a></td>
-	<td rel="doac:experience" about="#me" id="michigan" ><span property="doac:position v:title">Research Fellow</span> at the <a rel="doac:location v:affiliation" href="http://lsi.umich.edu">Life Sciences Institute</a>, <a rel="doac:location v:affiliation" href="http://www.umich.edu">University of Michigan</a> in the laboratory of <a rel="doac:organization v:affiliation" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel</a> (<span property="doac:date-starts">June 2005</span>-<span property="doac:date-ends">Current</span>)</td>
-	</tr>
-</table>
-<h2>Publications</h2>
+<dl>
+<dt property="foaf:interest">Regulation of Metabolism and Nutrient Homeostasis</dt><dd></dd>
+<dt property="foaf:interest">Signal Transduction</dt><dd></dd>
+<dt property="foaf:interest">Intracellular Trafficking</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div class="container_12" id="education_training">
+<h2 class="grid_12">Training</h2>
+
+<h3 class="grid_12">Education</h3>
+<div id="education" class="grid_8">
+<dl rel="doac:education" id="education" border="1">
+	<dt typof="doac:Degree" id="bsc" about="#bsc">
+	    <span property="doac:title">Bachelor's of Science</span> in
+	    <span property="doac:subject">Biochemistry</span>.
+	</dt>
+	<dd about="#bsc">
+    	<span property="doac:date-starts">September 1996</span> to
+		<span property="doac:date-ends">June 2000</span> from the 
+	    <span property="foaf:organization">Department of Biological Sciences, University of Calgary</span>.
+	</dd>
+    <dt typof="doac:Degree" id="phd" about="#phd">
+		<span property="doac:title">Doctor of Philosophy</span> in 
+	    <span  property="doac:subject">Biochemistry</span>.
+    </dt>
+	<dd about="#phd">
+	    <span property="doac:date-starts">September 2000</span> to
+		<span property="doac:date-ends">May 2005</span> in the
+	    <span property="foaf:group">Moorhead Laboratory</span> in the
+	    <span property="foaf:organization">Department of Biological Sciences, University of Calgary</span>.
+    </dd>
+</dl>
+</div>
+<div class="grid_4" id="ucalgary-logo">
+<img src="/img/ucalgary_logo.jpg">
+</div>
+<h3 class="grid_12">Experience</h3>
+<div rel="doac:experience" id="experience" about="#davebridges" class="grid_8">
+	<dl typof="doac:Experience" id="michigan-pdf" about="#mighigan-pdf"> 
+	 		<dt property="doac:position">Postdoctoral Research Fellow</dt>
+			<dd>
+			<span property="doac:date-starts">June 2005</span>-Current.
+			<span property="doac:position">Research Fellow</span> at the
+		    <span property="foaf:organization">Life Sciences Institute, University of Michigan</span> in
+			<span property="foaf:group">Dr. Alan Saltiel's Laboratory</span>
+			</dd>
+	</dl>
+</div>
+<div class="grid_4" id="umichigan-logo">
+<img src="/img/lsi_logo.gif" >
+<img src="/img/umich_logo.gif" >
+</div>
+</div>
+<div rel="foaf:publications" id="publications" about="#davebridges" class="container_12">
+<h2 class="grid_12">Publications</h2>
+<div id="research" class="grid_6">
 <h3>Research Articles</h3>
-<ol about="#me" rel="foaf:publications">
-	<li typeof="foaf:Document" id="MCB">Lodhi, I. J.*., <strong>D. Bridges*</strong>, S.H. Chiang, Y. Zhang, A. Cheng, L.M. Geletka, L.S. Weisman and A. R. Saltiel.  <span property="dcterms:issued">2008</span>.  <em property="dc:title">Insulin Stimulates Phosphatidylinositol 3-Phosphate Production via the Activation of Rab5.</em>  <strong property="bibo:Journal">Molecular Biology of the Cell</strong>.  <span property="bibo:Issue">19</span>(<span property="bibo:issue">7</span>):<span property="bibo:pageStart">2718</span>-<span property="bibo:pageEnd">2728</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18434594"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
-	<li typeof="foaf:Document" id="BBRC"><strong>Bridges, D.</strong>, J. A. MacDonald and G. B. G. Moorhead.  <span property="dcterms:issued">2006</span>.  <em property="dc:title">Identification and Characterization of D-AKAP1 as a Major Adipocyte PKA and PP1 Binding Protein.</em>  <strong property="bibo:Journal">Biochemical and Biophysical Resesarch Communications</strong>.  <span property="bibo:volume">346</span>(<span property="bibo:issue">1</span>):<span property="bibo:pageStart">351</span>-<span property="bibo:pageEnd">357</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16756943"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
-	<li typeof="foaf:Document" id="BMC"><strong>Bridges, D.</strong>, M. E. Fraser and G. B. G. Moorhead.  <span property="dcterms:issued">2005</span>.  <em property="dc:title">Cyclic Nucleotide Binding Domains in the Arabidopsis thaliana and Oryza satviva Genomes.</em>  <strong property="bibo:Journal">BMC Bioinformatics</strong> <span property="bibo:volume">6</span>(<span property="bibo:issue">1</span>): <span property="bibo:pageStart">6</span>-<span property="bibo:pageEnd"></span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/15644130"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
-	<li typeof="foaf:Document" id="EJB">Moorhead, G., S. Meek, P. Douglas, <strong>D. Bridges</strong>, C.S. Smith, N. Morrice and C. MacKintosh.  <span property="dcterms:issued">2003</span>.  <em property="dc:title">Purification of a plant nucleotide pyrophosphatase that interferes with nitrate reductase and glutamine synthetase assays.</em>  <strong property="bibo:Journal">European Journal of Biochemistry</strong> <span property="bibo:volume">270</span>(<span property="bibo:issue">6</span>): <span property="bibo:pageStart">1356</span>-<span property="bibo:pageEnd">1362</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12631294"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
-	<li typeof="foaf:Document" id="BCB">Tran, H.T., <strong>D. Bridges</strong>, A. Ulke and G.B.G. Moorhead.  <span property="dcterms:issued">2002</span>.  <em property="dc:title">Identification of multiple splice variant isoforms of the Protein Phosphatase 1 Regulator sds22 in Rat Liver Nuclei.</em>  <strong property="bibo:Journal">Biochemistry and Cell Biology</strong> <span property="bibo:volume">80</span>(<span property="bibo:issue">6</span>): <span property="bibo:pageStart">811</span>-<span property="bibo:pageEnd">815</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12555814"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
-	<li typeof="foaf:Document" id="Biochemistry">Fogg D.K., <strong>D.E. Bridges</strong>, K.K. Cheung, G. Kassam, N.R. Filipenko, K.S. Choi, S.L. Fitzpatrick, M. Nesheim and D.M. Waisman.  <span property="dcterms:issued">2002</span>.  <em property="dc:title">The p11 subunit of annexin II heterotetramer is regulated by basic carboxypeptidase.</em>  <strong property="bibo:Journal">Biochemistry</strong> <span property="bibo:volume">41</span>(<span property="bibo:issue">15</span>): <span property="bibo:pageStart">4953</span>-<span property="bibo:pageEnd">4961</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11939791"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+<ol>
+	<li typeof="foaf:Document" id="MCB" about="#MCB">Lodhi, I. J.*., <strong>D. Bridges*</strong>, S.H. Chiang, Y. Zhang, A. Cheng, L.M. Geletka, L.S. Weisman and A. R. Saltiel.  <span property="dcterms:issued">2008</span>.  <em property="dc:title">Insulin Stimulates Phosphatidylinositol 3-Phosphate Production via the Activation of Rab5.</em>  <strong property="bibo:Journal">Molecular Biology of the Cell</strong>.  <span property="bibo:Issue">19</span>(<span property="bibo:issue">7</span>):<span property="bibo:pageStart">2718</span>-<span property="bibo:pageEnd">2728</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/18434594"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+	<li typeof="foaf:Document" id="BBRC" about="#BBRC"><strong>Bridges, D.</strong>, J. A. MacDonald and G. B. G. Moorhead.  <span property="dcterms:issued">2006</span>.  <em property="dc:title">Identification and Characterization of D-AKAP1 as a Major Adipocyte PKA and PP1 Binding Protein.</em>  <strong property="bibo:Journal">Biochemical and Biophysical Resesarch Communications</strong>.  <span property="bibo:volume">346</span>(<span property="bibo:issue">1</span>):<span property="bibo:pageStart">351</span>-<span property="bibo:pageEnd">357</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/16756943"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+	<li typeof="foaf:Document" id="BMC" about="#BMC"><strong>Bridges, D.</strong>, M. E. Fraser and G. B. G. Moorhead.  <span property="dcterms:issued">2005</span>.  <em property="dc:title">Cyclic Nucleotide Binding Domains in the Arabidopsis thaliana and Oryza satviva Genomes.</em>  <strong property="bibo:Journal">BMC Bioinformatics</strong> <span property="bibo:volume">6</span>(<span property="bibo:issue">1</span>): <span property="bibo:pageStart">6</span>-<span property="bibo:pageEnd"></span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/15644130"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+	<li typeof="foaf:Document" id="EJB" about="#EJB">Moorhead, G., S. Meek, P. Douglas, <strong>D. Bridges</strong>, C.S. Smith, N. Morrice and C. MacKintosh.  <span property="dcterms:issued">2003</span>.  <em property="dc:title">Purification of a plant nucleotide pyrophosphatase that interferes with nitrate reductase and glutamine synthetase assays.</em>  <strong property="bibo:Journal">European Journal of Biochemistry</strong> <span property="bibo:volume">270</span>(<span property="bibo:issue">6</span>): <span property="bibo:pageStart">1356</span>-<span property="bibo:pageEnd">1362</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12631294"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+	<li typeof="foaf:Document" id="BCB" about="#BCB">Tran, H.T., <strong>D. Bridges</strong>, A. Ulke and G.B.G. Moorhead.  <span property="dcterms:issued">2002</span>.  <em property="dc:title">Identification of multiple splice variant isoforms of the Protein Phosphatase 1 Regulator sds22 in Rat Liver Nuclei.</em>  <strong property="bibo:Journal">Biochemistry and Cell Biology</strong> <span property="bibo:volume">80</span>(<span property="bibo:issue">6</span>): <span property="bibo:pageStart">811</span>-<span property="bibo:pageEnd">815</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12555814"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+	<li typeof="foaf:Document" id="Biochemistry" about="#Biochemistry">Fogg D.K., <strong>D.E. Bridges</strong>, K.K. Cheung, G. Kassam, N.R. Filipenko, K.S. Choi, S.L. Fitzpatrick, M. Nesheim and D.M. Waisman.  <span property="dcterms:issued">2002</span>.  <em property="dc:title">The p11 subunit of annexin II heterotetramer is regulated by basic carboxypeptidase.</em>  <strong property="bibo:Journal">Biochemistry</strong> <span property="bibo:volume">41</span>(<span property="bibo:issue">15</span>): <span property="bibo:pageStart">4953</span>-<span property="bibo:pageEnd">4961</span>.  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11939791"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
 </ol>
-<p>For a list of my publications see my profile on <a href="http://www.mendeley.com/profiles/dave-bridges/">Mendeley</a> or on <a href="http://www.researcherid.com/rid/A-8825-2010">ResearcherID</a></p>.
+<p>For a list of my publications see my profile on <a href="http://www.ncbi.nlm.nih.gov/pubmed?term=bridges%20dave">PubMed</a>, <a href="http://www.mendeley.com/profiles/dave-bridges/">Mendeley</a> or on <a href="http://www.researcherid.com/rid/A-8825-2010">ResearcherID.</a></p>
+</div>
+<div id="reviewing" about="#davebridges" rel="doac:experience" class="grid_6">
 <h3>Review Articles</h3>
-<ol about="#me" rel="foaf:publications">
-<li typeof="foaf:Document"><strong>Bridges, D.</strong> and G. B. G. Moorhead.  <span property="dcterms:issued">2005</span>.  <em>14-3-3 Proteins:  A Number of Roles for a Numbered Protein.</em>  Science's STKE 2005: re10.<a href="http://www.ncbi.nlm.nih.gov/pubmed/16091624"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
+<ol rel="foaf:publications" about="#davebridges">
+<li typeof="foaf:Document" id="STKE" about="#STKE"><strong>Bridges, D.</strong> and G. B. G. Moorhead.  <span property="dcterms:issued">2005</span>.  <em property="dc:title">14-3-3 Proteins:  A Number of Roles for a Numbered Protein.</em>  <strong property="bibo:Journal">Science's STKE</strong> <span property="bibo:issue">2005</span>: <span property="bibo:pageStart">re10</span>.<a href="http://www.ncbi.nlm.nih.gov/pubmed/16091624"><img src="img/pubmed.png" alt="PubMed" height="18px"/></a></li>
 </ol>
-<h3>News and Views</h3>
-<a href="http://f1000.com"><img src="img/f1000_logo.png" alt="Faculty of 1000" width="25%"/></a>
-<p about="#me" rel="doac:experience" href="http://f1000.com" id="F1000">I have been an <span property="doac:position">Associate Member</span> of the <span rel="doac:organization">Faculty of 1000</span> since <span property="doac:date-starts">November 2010</span>.  Click <a href="http://f1000.com/thefaculty/member/4676030982513436" title="F1000 Faculty Page">here</a> for my reviews.</p>
+<h3>Post Publication Articles</h3>
+<a typof="doac:Experience" id="F1000" about="#F1000" href="http://f1000.com"><img src="img/f1000_logo.png" alt="Faculty of 1000" width="25%"/></a>
+<p typof="doac:Experience" id="F1000" about="#F1000">I have been an <span property="doac:position">Associate Member</span> of the <span property="foaf:organization">Faculty of 1000</span> since <span property="doac:date-starts">November 2010</span>.  Click <a href="http://f1000.com/thefaculty/member/4676030982513436" title="F1000 Faculty Page">here</a> for my reviews.</p>
+</div>
+</div>
+
+<div class="grid_12 container_12" id="software">
 <h2>Software</h2>
 <ul>
-<li typeof="doap:Project"><a rel="doap:homepage" property="doap:name" href="http://github.com/davebridges/mousedb">MouseDB</a></li>
-<li typeof="doap:Project"><a rel="doap:homepage" property="doap:name" href="http://code.google.com/p/experimentdb">ExperimentDB</a></li>
+<li typeof="doap:Project" id="MouseDB" about="MouseDB"><a rel="doap:homepage" property="doap:name" href="http://github.com/davebridges/mousedb">MouseDB</a></li>
+<li typeof="doap:Project" id="ExperimentDB" about="ExperimentDB"><a rel="doap:homepage" property="doap:name" href="http://code.google.com/p/experimentdb">ExperimentDB</a></li>
 </ul>
+</div>
+
+<div class="grid_12 container_12" id="contact">
 <h2>Contact and Social Media Information</h2>
-<table>
-<tr about="#me" rel="foaf:holdsAccount">
-    <th typeof="foaf:OnlineAccount" about="#twitter"><a rel="foaf:accountServiceHomepage" href="http://twitter.com/"><img src="img/twitter_logo.png" width="100px" alt="Twitter"/></a></th>
-    <td property="foaf:accountName" datatype=""><a href="http://www.twitter.com/dave_bridges"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-a.png" alt="Follow dave_bridges on Twitter"/></a></td>
+<p>You can contact me at </p>
+<table id="online_accounts" rel="foaf:holdsAccount">
+<tr typeof="foaf:account" id="twitter" about="#twitter">
+    <th><a rel="foaf:accountServiceHomepage" href="http://twitter.com/"><img src="img/twitter_logo.png" width="100px" alt="Twitter"/></a></th>
+    <td><a href="http://www.twitter.com/dave_bridges"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-a.png" alt="Follow dave_bridges on Twitter"/></a><span property="foaf:accountName" content="dave_bridges"></td>
 </tr>
-<tr about="#me" rel="foaf:holdsAccount">
-   <th typeof="foaf:OnlineAccount" about="#linkedin"><a rel="foaf:accountServiceHomepage" href="http://www.linkedin.com/"><img src="img/linkedin_logo.jpg" width="100px" alt="LinkedIn"/></a></th>
-   <td property="foaf:accountName" datatype=""><a href="http://www.linkedin.com/pub/dave-bridges/16/555/128" >
+<tr typeof="foaf:account" id="linkedin" about="#linkedin">
+   <th><a rel="foaf:accountServiceHomepage" href="http://www.linkedin.com/"><img src="img/linkedin_logo.jpg" width="100px" alt="LinkedIn"/></a></th>
+   <td property="foaf:accountName" content="55104368"><a href="http://www.linkedin.com/pub/dave-bridges/16/555/128" >
           <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" alt="View Dave Bridges's profile on LinkedIn"/>
     </a></td>
 </tr>
-<tr about="#me" rel="foaf:holdsAccount">
-   <th typeof="foaf:OnlineAccount" about="#gist"><a rel="foaf:accountServiceHomepage" href="http://www.gist.com/"><img src="img/gist_logo.jpg" width="50px" alt="Gist"/></a></th>
-   <td property="foaf:accountName" datatype=""><a href="http://www.gist.com/davebridges">Dave Bridges</a></td>
+<tr typeof="foaf:account" id="gist" about="#gist">
+   <th><a rel="foaf:accountServiceHomepage" href="http://www.gist.com/"><img src="img/gist_logo.jpg" width="50px" alt="Gist"/></a></th>
+   <td property="foaf:accountName" content="davebridges"><a href="http://www.gist.com/davebridges">Dave Bridges</a></td>
 </tr>
-<tr about="#me"rel="foaf:holdsAccount">
-  <th typeof="foaf:OnlineAccount" about="#mendeley"><a rel="foaf:accountServiceHomepage" href="http://www.mendeley.com/"><img src="img/mendeley_logo.png" width="100px" alt="Mendeley"/></a></th>
-  <td property="foaf:accountName" datatype=""><a href="http://www.mendeley.com/profiles/dave-bridges/"><img src="http://www.mendeley.com/embed/icon/1/red/small" alt="Research papers by Dave Bridges"/></a></td>
+<tr typeof="foaf:account" id="mendeley" about="#mendeley">
+  <th><a rel="foaf:accountServiceHomepage" href="http://www.mendeley.com/"><img src="img/mendeley_logo.png" width="100px" alt="Mendeley"/></a></th>
+  <td property="foaf:accountName" content="dave-bridges"><a href="http://www.mendeley.com/profiles/dave-bridges/"><img src="http://www.mendeley.com/embed/icon/1/red/small" alt="Research papers by Dave Bridges"/></a></td>
 </tr>
-<tr about="#me" rel="foaf:holdsAccount">
- <th typeof="foaf:OnlineAccount" about="#researcherid"><a rel="foaf:accountServiceHomepage" href="http://www.researcherid.com/"><img src="img/rid_logo.gif" width="100px" alt="ResearcherID"/></a></th>
- <td property="foaf:accountName" datatype=""><a href="http://www.researcherid.com/rid/A-8825-2010">A-8825-2010</a></td>
+<tr typeof="foaf:account" id="researcherid" about="#researcherid">
+ <th><a rel="foaf:accountServiceHomepage" href="http://www.researcherid.com/"><img src="img/rid_logo.gif" width="100px" alt="ResearcherID"/></a></th>
+ <td property="foaf:accountName" content="A-8825-2010"><a href="http://www.researcherid.com/rid/A-8825-2010">A-8825-2010</a></td>
 </tr>
-<tr about="#me" rel="foaf:holdsAccount">
- <th typeof="foaf:OnlineAccount" about="#lastfm"><a rel="foaf:accountServiceHomepage" href="http://www.last.fm/"><img src="img/lastfm_logo.gif" width="100px" alt="Last.fm"/></a></th>
- <td property="foaf:accountName"><a href="http://www.last.fm/user/davebridges/?chartstyle=brushed10"><img src="http://imagegen.last.fm/brushed10/recenttracks/davebridges.gif" alt="davebridges's Profile Page" /></a> </td>
+<tr typeof="foaf:account" id="lastfm" about="#lastfm">
+ <th><a rel="foaf:accountServiceHomepage" href="http://www.last.fm/"><img src="img/lastfm_logo.gif" width="100px" alt="Last.fm"/></a></th>
+ <td property="foaf:accountName" content="davebridges"><a href="http://www.last.fm/user/davebridges/">davebridges</a></td>
 </tr>
 </table>
-
 </div>
-<div id="footer">
+</div>
+<div id="footer" class="grid_12">
 All content on this site is licensed under
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
     a Creative Commons License
@@ -111,7 +181,8 @@ All content on this site is licensed under
         src="http://www.w3.org/Icons/valid-xhtml-rdfa"
         alt="Valid XHTML + RDFa" height="31" width="88" /></a>
   </p>
-<a href="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html">Extract RDF</a>
+<p><a href="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html">Extract RDF</a></p>
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like>
 </div>
 </body>
 </html>

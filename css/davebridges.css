@@ -22,11 +22,25 @@ img {
 	
 td {
 	max-width: 450px;
+	padding: 5px;
 	}
 
+dt { 
+    color: cadetblue;
+    font-size: large;	
+}
+	
 li {
 	max-width: 450px;
 	}	
+
+dd{
+	max-width: 450px;
+	}	
+
+dt{
+	max-width: 450px;
+	}		
 	
 p {
 	/* if width = 30 X font size that gives about 65 characters per line */
@@ -36,10 +50,4 @@ p {
 	line-height: 19px;
 }
 
-img#profile_picture {
-    position: absolute;
-	top:125px;
-    right: 0px;
-	padding: 2%
-}
     
