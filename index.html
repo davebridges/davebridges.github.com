@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />	
 	<base href="http://davebridges.github.com" />
     <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
-    <meta property="dc:creator" content="Dave Bridges" />
+    <meta property="dc:creator" resource="http://davebridges.github.com/#davebridges" />
     <meta property="og:title" content="Dave Bridges Homepage"/>
 	<meta property="dc:title" content="Dave Bridges Homepage"/>
     <meta property="og:type" content="website"/>
@@ -92,8 +92,8 @@
 	<dd about="#phd">
 	    <span property="doac:date-starts">September 2000</span> to
 		<span property="doac:date-ends">May 2005</span> in the
-	    <span property="foaf:group">Moorhead Laboratory</span> in the
-	    <span property="foaf:organization">Department of Biological Sciences, University of Calgary</span>.
+	    <span rel="foaf:group" resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members"><a href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members" property="foaf:name">Moorhead Laboratory</a></span> at the
+		<span property="foaf:organization">Department of Biological Sciences, University of Calgary</span>.
     </dd>
 </dl>
 <img class="grid_4" src="/img/ucalgary_logo.jpg" alt="University of Calgary">
@@ -105,7 +105,7 @@
 			<span property="doac:date-starts">June 2005</span>-Current.
 			<span property="doac:position">Research Fellow</span> at the
 		    <span property="foaf:organization">Life Sciences Institute, University of Michigan</span> in
-			<span property="foaf:group">Dr. Alan Saltiel's Laboratory</span>
+			<span property="foaf:group" >Dr. Alan Saltiel's Laboratory</span>
 			</dd>
 	</dl>
 </div>
@@ -121,14 +121,14 @@
 	<li typeof="foaf:Document" id="MBC" about="#MBC">
         <span about="#MBC" rel="bibo:authorList">
 		<span typeof="rdf:Seq" id="MBC_authors" about="#MBC_authors">
-		    <span rel="#MBC_authors" property="foaf:name">Lodhi, I. J.</span>*., 
-		    <span rel="#MBC_authors" property="foaf:name">D. Bridges</span>*, 
-		    <span rel="#MBC_authors" property="foaf:name">S.H. Chiang</span>, 
-		    <span rel="#MBC_authors" property="foaf:name">Y. Zhang</span>, 
-		    <span rel="#MBC_authors" property="foaf:name">A. Cheng</span>, 
-		    <span rel="#MBC_authors" property="foaf:name">L.M. Geletka</span>, 
-		    <span rel="#MBC_authors" property="foaf:name">L.S. Weisman</span> and 
-		    <span rel="#MBC_authors" property="foaf:name">A. R. Saltiel</span>.  
+		    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">Lodhi, I. J.</span></span>*., 
+		    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">D. Bridges</span></span>*, 
+		    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">S.H. Chiang</span></span>, 
+		    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">Y. Zhang</span></span>, 
+		    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">A. Cheng</span></span>, 
+		    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">L.M. Geletka</span></span>, 
+		    <span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.lsi.umich.edu/facultyresearch/labs/weisman/pi">L.S. Weisman</a></span> and 
+		    <span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel/pi">A. R. Saltiel</a></span>.  
 		</span>
 		</span>
 		<span property="dcterms:issued">2008</span>.  
@@ -140,9 +140,9 @@
 	<li typeof="foaf:Document" id="BBRC" about="#BBRC">
 	    <span about="#BBRC" rel="bibo:authorList">
 		<span typeof="rdf:Seq" id="BBRC_authors" about="#BBRC_authors">
-	    <strong rel="#BBRC_authors">Bridges, D.</strong>, 
-		<span rel="#BBRC_authors" property="foaf:name">J.A. MacDonald</span> and 
-		<span rel="#BBRC_authors" property="foaf:name">G.B.G. Moorhead</span>.  
+	    <strong rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">Bridges, D.</span></strong>, 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.ucalgary.ca/smrg/faculty/justin-macdonald">J.A. MacDonald</a></span> and 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">G.B.G. Moorhead</a></span>.  
 		</span>
 		</span>
 		<span property="dcterms:issued">2006</span>.  
@@ -153,10 +153,10 @@
 	</li>
 	<li typeof="foaf:Document" id="BMC" about="#BMC">
 	    <span about="#BMC" rel="bibo:authorList">
-		<span typeof="rdf:Seq" id="BBRC_authors" about="#BMC_authors">
-		<strong rel="#BMC_authors" property="foaf:name">Bridges, D.</strong>, 
-		<span rel="#BMC_authors" property="foaf:name">M.E. Fraser</span> and 
-		<span rel="#BMC_authors" property="foaf:name">G.B.G. Moorhead</span>.  
+		<span typeof="rdf:Seq" id="BMC_authors" about="#BMC_authors">
+		<strong rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">Bridges, D.</span></strong>, 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.bio.ucalgary.ca/contact/faculty/fraser.html">M.E. Fraser</a></span> and 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">G.B.G. Moorhead</a></span>.  
 		</span>
 		</span>
 		<span property="dcterms:issued">2005</span>.  
@@ -168,13 +168,13 @@
 	<li typeof="foaf:Document" id="EJB" about="#EJB">
 	    <span about="#EJB" rel="bibo:authorList">
 		<span typeof="rdf:Seq" id="BBRC_authors" about="#EJB_authors">
-		<span rel="#EJB_authors" property="foaf:name">Moorhead, G.</span>, 
-		<span rel="#EJB_authors" property="foaf:name">S. Meek</span>, 
-		<span rel="#EJB_authors" property="foaf:name">P. Douglas</span>, 
-		<strong rel="#EJB_authors" property="foaf:name">D. Bridges</strong>, 
-		<span rel="#EJB_authors" property="foaf:name">C.S. Smith</span>, 
-		<span rel="#EJB_authors" property="foaf:name">N. Morrice</span> and 
-		<span rel="#EJB_authors" property="foaf:name">C. MacKintosh</span>.  
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">Moorhead, G.</a></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">S. Meek</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">P. Douglas</span></span>, 
+		<strong rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">D. Bridges</span></strong>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">C.S. Smith</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">N. Morrice</span></span> and 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.ppu.mrc.ac.uk/research/?pid=5">C. MacKintosh</a></span>.  
 		</span>
 		</span>
 		<span property="dcterms:issued">2003</span>.  
@@ -186,10 +186,10 @@
 	<li typeof="foaf:Document" id="BCB" about="#BCB">
 	    <span about="#BCB" rel="bibo:authorList">
 		<span typeof="rdf:Seq" id="BCB_authors" about="#BCB_authors">
-		<span rel="#BCB_authors" property="foaf:name">Tran, H.T.</span>, 
-		<strong rel="#BCB_authors" property="foaf:name">D. Bridges</strong>, 
-		<span rel="#BCB_authors" property="foaf:name">A. Ulke</span> and 
-		<span rel="#BCB_authors" property="foaf:name">G.B.G. Moorhead</span>.  
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">Tran, H.T.</span></span>, 
+		<strong rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">D. Bridges</span></strong>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">A. Ulke</span></span> and 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">G.B.G. Moorhead</a></span>.  
 		</span>
 		</span>
 		<span property="dcterms:issued">2002</span>.  
@@ -201,15 +201,15 @@
 	<li typeof="foaf:Document" id="Biochemistry" about="#Biochemistry">
 	    <span about="#Biochemistry" rel="bibo:authorList">
 		<span typeof="rdf:Seq" id="BBRC_authors" about="#Biochemistry_authors">
-		<span rel="#Biochemistry_authors" property="foaf:name">Fogg D.K.</span>, 
-		<strong rel="#Biochemistry_authors" property="foaf:name">D.E. Bridges</strong>, 
-		<span rel="#Biochemistry_authors" property="foaf:name">K.K. Cheung</span>, 
-		<span rel="#Biochemistry_authors" property="foaf:name">G. Kassam</span>, 
-		<span rel="#Biochemistry_authors" property="foaf:name">N.R. Filipenko</span>, 
-		<span rel="#Biochemistry_authors" property="foaf:name">K.S. Choi</span>, 
-		<span rel="#Biochemistry_authors" property="foaf:name">S.L. Fitzpatrick</span>, 
-		<span rel="#Biochemistry_authors" property="foaf:name">M. Nesheim</span> and 
-		<span rel="#Biochemistry_authors" property="foaf:name">D.M. Waisman</span>.  
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">Fogg D.K.</span></span>, 
+		<strong rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">D.E. Bridges</span></strong>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">K.K. Cheung</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">G. Kassam</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">N.R. Filipenko</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">K.S. Choi</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">S.L. Fitzpatrick</span></span>, 
+		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">M. Nesheim</span></span> and 
+		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.biochem.dal.ca/faculty/facultypages/waisman/">D.M. Waisman</a></span>.  
 		</span>
 		</span>
 		<span property="dcterms:issued">2002</span>.  
@@ -227,8 +227,8 @@
      <li typeof="foaf:Document" id="STKE" about="#STKE">
         <span about="#STKE" rel="bibo:authorList">
 		<span typeof="rdf:Seq" id="BBRC_authors" about="#STKE_authors">
-		<strong rel="#STKE_authors" property="foaf:name">Bridges, D.</strong> and 
-	    <span rel="#STKE_authors" property="foaf:name">G.B.G. Moorhead</span>.  
+		<strong rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name" resource="#davebridges">Bridges, D.</span></strong> and 
+	    <span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">G.B.G. Moorhead</span></span>.  
 		</span>
 		</span>
 	    <span property="dcterms:issued">2005</span>.  
