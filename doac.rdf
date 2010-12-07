@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://davebridges.github.com/">
+	<title xmlns="http://purl.org/dc/terms/">"Dave Bridges"</title>
+	<license xmlns="http://www.w3.org/1999/xhtml/vocab#" rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+	<stylesheet xmlns="http://www.w3.org/1999/xhtml/vocab#" rdf:resource="http://davebridges.github.com/css/davebridges.css"/>
+	<stylesheet xmlns="http://www.w3.org/1999/xhtml/vocab#" rdf:resource="http://davebridges.github.com/css/960.12containers.gs.css"/>
+	<primaryTopic xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/">""</creator>
+	<title xmlns="http://opengraphprotocol.org/schema/">"Dave Bridges Homepage"</title>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"Dave Bridges Homepage"</title>
+	<type xmlns="http://opengraphprotocol.org/schema/">"website"</type>
+	<url xmlns="http://opengraphprotocol.org/schema/">"davebridges.github.com"</url>
+	<image xmlns="http://opengraphprotocol.org/schema/">"img/profile_picture.jpg"</image>
+	<site_name xmlns="http://opengraphprotocol.org/schema/">"Dave Bridges Homepage"</site_name>
+	<fbmladmins xmlns="http://www.facebook.com/2008/">"802530197"</fbmladmins>
+	<namespacelang xmlns="http://www.w3.org/XML/1998/">"en"</namespacelang>
+	<description xmlns="http://opengraphprotocol.org/schema/">"Website for Dave Bridges, a research scientist at the University of Michigan."</description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Dave Bridges"</name>
+	<givenName xmlns="http://xmlns.com/foaf/0.1/">"Dave"</givenName>
+	<familyName xmlns="http://xmlns.com/foaf/0.1/">"Bridges"</familyName>
+	<img xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<depicts xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<based_near xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://facebook.com/dave.bridges1"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.google.com/profiles/dave.bridges"/>
+	<mbox_sha1sum xmlns="http://xmlns.com/foaf/0.1/" rdf:nodeID="node15ieccg17x183867"/>
+	<interest xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/page/Metabolism"/>
+	<interest xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Signal_transduction"/>
+	<interest xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Vesicle_trafficking"/>
+	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#bsc"/>
+	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#bsc"/>
+	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#phd"/>
+	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#phd"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#bsc">
+	<title xmlns="http://ramonantonio.net/doac/0.1/">"Bachelor's of Science"</title>
+	<subject xmlns="http://ramonantonio.net/doac/0.1/">"Biochemistry"</subject>
+	<date-starts xmlns="http://ramonantonio.net/doac/0.1/">"September 1996"</date-starts>
+	<date-ends xmlns="http://ramonantonio.net/doac/0.1/">"June 2000"</date-ends>
+	<organization xmlns="http://xmlns.com/foaf/0.1/">"Department of Biological Sciences"</organization>
+	<organization xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/University_of_Calgary"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#phd">
+	<title xmlns="http://ramonantonio.net/doac/0.1/">"Doctor of Philosophy"</title>
+	<subject xmlns="http://ramonantonio.net/doac/0.1/">"Biochemistry"</subject>
+	<date-starts xmlns="http://ramonantonio.net/doac/0.1/">"September 2000"</date-starts>
+	<date-ends xmlns="http://ramonantonio.net/doac/0.1/">"May 2005"</date-ends>
+	<group xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Moorhead Laboratory"</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#phd">
+	<organization xmlns="http://xmlns.com/foaf/0.1/">"Department of Biological Sciences"</organization>
+	<organization xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/University_of_Calgary"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<experience xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#mighigan-pdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#mighigan-pdf">
+	<position xmlns="http://ramonantonio.net/doac/0.1/">"Postdoctoral Research Fellow"</position>
+	<date-starts xmlns="http://ramonantonio.net/doac/0.1/">"June 2005"</date-starts>
+	<position xmlns="http://ramonantonio.net/doac/0.1/">"Research Fellow"</position>
+	<organization xmlns="http://xmlns.com/foaf/0.1/">"Life Sciences Institute"</organization>
+	<organization xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/University_of_Michigan"/>
+	<group xmlns="http://xmlns.com/foaf/0.1/">"Dr. Alan Saltiel's Laboratory"</group>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#MBC"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#BBRC"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#BMC"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#EJB"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#BCB"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#Biochemistry"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed?term=bridges%20dave"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.mendeley.com/profiles/dave-bridges/"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.researcherid.com/rid/A-8825-2010"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:nodeID="node15ieccg17x183868"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://en.wikipedia.org/wiki/Special:Contributions/Davebridges"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://github.com/davebridges/mousedb"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://code.google.com/p/experimentdb"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:nodeID="node15ieccg17x183868"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:nodeID="node15ieccg17x183868"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://connect.facebook.net/en_US/all.js#xfbml=1"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/davebridges.github.com"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#MBC_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183869"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183869">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Lodhi, I. J."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"D. Bridges"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183870"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183870">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"S.H. Chiang"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183871"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183871">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Y. Zhang"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183872"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183872">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"A. Cheng"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183873"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183873">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"L.M. Geletka"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.lsi.umich.edu/facultyresearch/labs/weisman/pi"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.lsi.umich.edu/facultyresearch/labs/weisman/pi">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"L.S. Weisman"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://dbpedia.org/resource/Alan_R._Saltiel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alan_R._Saltiel">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"A. R. Saltiel"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#MBC">
+	<issued xmlns="http://purl.org/dc/terms/">"2008"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"Insulin Stimulates Phosphatidylinositol 3-Phosphate Production via the Activation of Rab5."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"Molecular Biology of the Cell"</Journal>
+	<Issue xmlns="http://purl.org/ontology/bibo/">"19"</Issue>
+	<issue xmlns="http://purl.org/ontology/bibo/">"7"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"2718"</pageStart>
+	<pageEnd xmlns="http://purl.org/ontology/bibo/">"2728"</pageEnd>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/18434594"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1091/mbc.E08-01-0105"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BBRC">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#BBRC_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BBRC_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Bridges, D."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BBRC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.ucalgary.ca/smrg/faculty/justin-macdonald"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ucalgary.ca/smrg/faculty/justin-macdonald">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"J.A. MacDonald"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BBRC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"G.B.G. Moorhead"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BBRC">
+	<issued xmlns="http://purl.org/dc/terms/">"2006"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"Identification and Characterization of D-AKAP1 as a Major Adipocyte PKA and PP1 Binding Protein."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"Biochemical and Biophysical Resesarch Communications"</Journal>
+	<volume xmlns="http://purl.org/ontology/bibo/">"346"</volume>
+	<issue xmlns="http://purl.org/ontology/bibo/">"1"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"351"</pageStart>
+	<pageEnd xmlns="http://purl.org/ontology/bibo/">"357"</pageEnd>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16756943"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1016/j.bbrc.2006.05.138"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BMC">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#BMC_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BMC_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Bridges, D."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BMC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/fraser.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/fraser.html">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"M.E. Fraser"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BMC_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"G.B.G. Moorhead"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BMC">
+	<issued xmlns="http://purl.org/dc/terms/">"2005"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"Cyclic Nucleotide Binding Domains in the Arabidopsis thaliana and Oryza satviva Genomes."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"BMC Bioinformatics"</Journal>
+	<volume xmlns="http://purl.org/ontology/bibo/">"6"</volume>
+	<issue xmlns="http://purl.org/ontology/bibo/">"1"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"6"</pageStart>
+	<pageEnd xmlns="http://purl.org/ontology/bibo/">""</pageEnd>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/15644130"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1186/1471-2105-6-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#EJB_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Moorhead, G."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183874"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183874">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"S. Meek"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183875"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183875">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"P. Douglas"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"D. Bridges"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183876"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183876">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"C.S. Smith"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183877"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183877">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"N. Morrice"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.ppu.mrc.ac.uk/research/?pid=5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ppu.mrc.ac.uk/research/?pid=5">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"C. MacKintosh"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#EJB">
+	<issued xmlns="http://purl.org/dc/terms/">"2003"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"Purification of a plant nucleotide pyrophosphatase that interferes with nitrate reductase and glutamine synthetase assays."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"European Journal of Biochemistry"</Journal>
+	<volume xmlns="http://purl.org/ontology/bibo/">"270"</volume>
+	<issue xmlns="http://purl.org/ontology/bibo/">"6"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"1356"</pageStart>
+	<pageEnd xmlns="http://purl.org/ontology/bibo/">"1362"</pageEnd>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12631294"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1046/j.1432-1033.2003.03509.x"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BCB">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#BCB_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BCB_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183878"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183878">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Tran, H.T."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BCB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"D. Bridges"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BCB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183879"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183879">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"A. Ulke"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BCB_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"G.B.G. Moorhead"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#BCB">
+	<issued xmlns="http://purl.org/dc/terms/">"2002"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"Identification of multiple splice variant isoforms of the Protein Phosphatase 1 Regulator sds22 in Rat Liver Nuclei."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"Biochemistry and Cell Biology"</Journal>
+	<volume xmlns="http://purl.org/ontology/bibo/">"80"</volume>
+	<issue xmlns="http://purl.org/ontology/bibo/">"6"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"811"</pageStart>
+	<pageEnd xmlns="http://purl.org/ontology/bibo/">"815"</pageEnd>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/12555814"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1139/o02-155"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#Biochemistry_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183880"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183880">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Fogg D.K."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"D.E. Bridges"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183881"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183881">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"K.K. Cheung"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183882"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183882">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"G. Kassam"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183883"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183883">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"N.R. Filipenko"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183884"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183884">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"K.S. Choi"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183885"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183885">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"S.L. Fitzpatrick"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183886"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183886">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"M. Nesheim"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.biochem.dal.ca/faculty/facultypages/waisman/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.biochem.dal.ca/faculty/facultypages/waisman/">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"D.M. Waisman"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#Biochemistry">
+	<issued xmlns="http://purl.org/dc/terms/">"2002"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"The p11 subunit of annexin II heterotetramer is regulated by basic carboxypeptidase."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"Biochemistry"</Journal>
+	<volume xmlns="http://purl.org/ontology/bibo/">"41"</volume>
+	<issue xmlns="http://purl.org/ontology/bibo/">"15"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"4953"</pageStart>
+	<pageEnd xmlns="http://purl.org/ontology/bibo/">"4961"</pageEnd>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11939791"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1021/bi012045y"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<experience xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<experience xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#F1000"/>
+	<experience xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#F1000"/>
+	<publications xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#STKE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#STKE">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<authorList xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://davebridges.github.com/#STKE_authors"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#STKE_authors">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"Bridges, D."</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#STKE_authors">
+	<member xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:nodeID="node15ieccg17x183887"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183887">
+	<name xmlns="http://xmlns.com/foaf/0.1/">"G.B.G. Moorhead"</name>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#STKE">
+	<issued xmlns="http://purl.org/dc/terms/">"2005"</issued>
+	<title xmlns="http://purl.org/dc/elements/1.1/">"14-3-3 Proteins: A Number of Roles for a Numbered Protein."</title>
+	<Journal xmlns="http://purl.org/ontology/bibo/">"Science's STKE"</Journal>
+	<issue xmlns="http://purl.org/ontology/bibo/">"2005"</issue>
+	<pageStart xmlns="http://purl.org/ontology/bibo/">"re10"</pageStart>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/16091624"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://dx.doi.org/10.1126/stke.2962005re10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#F1000">
+	<position xmlns="http://ramonantonio.net/doac/0.1/">"Associate Member"</position>
+	<organization xmlns="http://xmlns.com/foaf/0.1/">"Faculty of 1000"</organization>
+	<date-starts xmlns="http://ramonantonio.net/doac/0.1/">"November 2010"</date-starts>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183868">
+	<contributor xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://wikipedia.org"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://github.com/davebridges/mousedb">
+	<rdf:type rdf:resource="http://usefulinc.com/ns/doap/#Project"/>
+	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://pypi.python.org/pypi/mousedb"/>
+	<creator xmlns="http://usefulinc.com/ns/doap/#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<maintainer xmlns="http://usefulinc.com/ns/doap/#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<homepage xmlns="http://usefulinc.com/ns/doap/#" rdf:resource="http://github.com/davebridges/mousedb"/>
+	<name xmlns="http://usefulinc.com/ns/doap/#">"MouseDB"</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://code.google.com/p/experimentdb">
+	<rdf:type rdf:resource="http://usefulinc.com/ns/doap/#Project"/>
+	<creator xmlns="http://usefulinc.com/ns/doap/#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<maintainer xmlns="http://usefulinc.com/ns/doap/#" rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<homepage xmlns="http://usefulinc.com/ns/doap/#" rdf:resource="http://code.google.com/p/experimentdb"/>
+	<name xmlns="http://usefulinc.com/ns/doap/#">"ExperimentDB"</name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183868">
+	<holdsAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#twitter"/>
+	<holdsAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#linkedin"/>
+	<holdsAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#mendeley"/>
+	<holdsAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#gist"/>
+	<holdsAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#researcherid"/>
+	<holdsAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#lastfm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#twitter">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/account"/>
+	<accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+	<accountName xmlns="http://xmlns.com/foaf/0.1/">"dave_bridges"</accountName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#linkedin">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/account"/>
+	<accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+	<accountName xmlns="http://xmlns.com/foaf/0.1/">"55104368"</accountName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#mendeley">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/account"/>
+	<accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.mendeley.com/"/>
+	<accountName xmlns="http://xmlns.com/foaf/0.1/">"dave-bridges"</accountName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#gist">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/account"/>
+	<accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.gist.com/"/>
+	<accountName xmlns="http://xmlns.com/foaf/0.1/">"davebridges"</accountName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#researcherid">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/account"/>
+	<accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.researcherid.com/"/>
+	<accountName xmlns="http://xmlns.com/foaf/0.1/">"A-8825-2010"</accountName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/#lastfm">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/account"/>
+	<accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.last.fm/"/>
+	<accountName xmlns="http://xmlns.com/foaf/0.1/">"davebridges"</accountName>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node15ieccg17x183868">
+	<license xmlns="http://www.w3.org/1999/xhtml/vocab#" rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://davebridges.github.com/">
+	<conformsTo xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.w3.org/TR/rdfa-syntax"/>
+</rdf:Description>
+
+</rdf:RDF>
