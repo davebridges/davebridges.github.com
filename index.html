@@ -51,6 +51,9 @@
   })();
 
 </script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+<script type='text/javascript' src='js/dynamicpage.js'></script
   
   </head>
 
@@ -58,7 +61,17 @@
 <div about="#davebridges" typeof="foaf:Person" class="container_12">
 <!--This section defines semantic information about the Dave Bridges.-->
 <span property="foaf:name" content="Dave Bridges"></span>
-<div class="container_12" id="general">
+<nav>
+    <ul>
+        <li><a href="#index">Home</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#contact">Contact</a></li>		
+    </ul>
+</nav>
+
+<div class="container_12" id="index">
 <h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
 <div class="grid_4" id="profile-photo">
 <img about="#davebridges" src="img/profile_picture.jpg" alt="Dave Bridges" id="profile_picture" rel="foaf:img" rev="foaf:depicts"/>
@@ -79,6 +92,7 @@
 </dl>
 </div>
 </div>
+<div id="cv">
 <div class="container_12" id="education_training">
 <h2 class="grid_12">Training</h2>
 
@@ -179,7 +193,7 @@
 	</li>
 	<li typeof="foaf:Document" id="EJB" about="#EJB">
 	    <span about="#EJB" rel="bibo:authorList">
-		<span typeof="rdf:Seq" id="BBRC_authors" about="#EJB_authors">
+		<span typeof="rdf:Seq" id="EJB_authors" about="#EJB_authors">
 		<span rel="rdfs:member"><a typeof="foaf:Person" property="foaf:name" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html">Moorhead, G.</a></span>, 
 		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">S. Meek</span></span>, 
 		<span rel="rdfs:member"><span typeof="foaf:Person" property="foaf:name">P. Douglas</span></span>, 
@@ -256,16 +270,17 @@
 </ol>
 <h3>Faculty of 1000</h3>
 <a typof="doac:Experience" id="F1000" about="#F1000" href="http://f1000.com"><img src="img/f1000_logo.png" alt="Faculty of 1000"/></a>
-<p typof="doac:Experience" id="F1000" about="#F1000">I have been an <span property="doac:position">Associate Member</span> of the <span property="foaf:organization">Faculty of 1000</span> since <span property="doac:date-starts">November 2010</span>.  Click <a href="http://f1000.com/thefaculty/member/4676030982513436" title="F1000 Faculty Page">here</a> for my reviews.</p>
+<p typof="doac:Experience" about="#F1000">I have been an <span property="doac:position">Associate Member</span> of the <span property="foaf:organization">Faculty of 1000</span> since <span property="doac:date-starts">November 2010</span>.  Click <a href="http://f1000.com/thefaculty/member/4676030982513436" title="F1000 Faculty Page">here</a> for my reviews.</p>
 </dl>
 </div>
 <div class="grid_6">
 <h3>Other Contributions</h3>
 <dl>
 <dt rel="bibo:contributor" resource="http://wikipedia.org"><a href="http://wikipedia.org">Wikipedia</a></dt>.  <dd>Click <a href="http://en.wikipedia.org/wiki/Special:Contributions/Davebridges">here </a>for my wikipedia contributions.</dd>
+</dl>
 </div>
 </div>
-
+</div>
 <div class="container_12" id="software">
 <h2 class="grid_12">Software</h2>
 <dl class="grid_12">
@@ -314,12 +329,14 @@
 </div>
 
 
+<hr class="container_12 grid_12" />
 <div id="footer" class="container_12">
-<p class="grid_3">All content on this site is licensed under
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-    a Creative Commons License
-</a>.</p>
 <p class="grid_3"><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like></p>
+<div class="grid_3">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
 <div class="grid_3">
 <p about=""
      resource="http://www.w3.org/TR/rdfa-syntax"
