@@ -20,21 +20,23 @@
   <head>
 
 <!--This section defines semantic information about the page.-->
-    <title property="og:title dc:title">Dave Bridges Curriculum Vitae</title>
+    <title>Dave Bridges</title>
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
 	<base href="http://davebridges.github.com" />
     <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
     <meta property="dc:creator" resource="http://davebridges.github.com/#davebridges" />
+    <meta property="og:title" content="Contact Information for Dave Bridges"/>
+	<meta property="dc:title" content="Contact Information for Dave Bridges"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="davebridges.github.com"/>
     <meta property="og:image" content="img/profile_picture.jpg"/>
     <meta property="og:site_name" content="Dave Bridges Homepage"/>
     <meta property="fb:admins" content="802530197"/>
-	<meta property="xml:lang" content="en"/>
+	<meta property="xml:lang" content="en"
     <meta property="og:description"
-          content="Curriculum Vitae for Dave Bridges, a research scientist at the University of Michigan."/>
+          content="Contact Information for Dave Bridges."/>
   
 <script type="text/javascript">
 
@@ -49,8 +51,7 @@
   })();
 
 </script>
-  
- <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen">
     <script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
@@ -80,14 +81,44 @@
     <li><a href="/software.html" title="Software">Software</a></li>
     <li><a href="/contact.html" title="Contact Information">Contact</a></li>		
 </ul>
-<div class="grid_8" id="interests">
-<h1 class=" container_12 grid_12">Contact Information</h1>
-<dl>
-<dt>Regulation of <span rel="foaf:interest" resource="http://dbpedia.org/page/Metabolism">Metabolism</span> and Nutrient Homeostasis</dt><dd></dd>
-<dt rel="foaf:interest" resource="http://dbpedia.org/resource/Signal_transduction">Signal Transduction</dt><dd></dd>
-<dt rel="foaf:interest" resource="http://dbpedia.org/resource/Vesicle_trafficking">Intracellular Trafficking</dt><dd></dd>
-</dl>
+
+<h1 class=" container_12 grid_12"><span property="foaf:givenName">Contact Information</h1>
+
+<div class="container_12" id="contact">
+<h2 class="grid_12" >Contact and Social Media Information</h2>
+<p class="grid_12">You can contact me at </p>
+<table id="online_accounts" rel="foaf:holdsAccount" class="grid_12">
+<tr typeof="foaf:account" id="twitter" about="#twitter">
+    <th><a rel="foaf:accountServiceHomepage" href="http://twitter.com/"><img src="img/twitter_logo.png" width="100px" alt="Twitter"/></a></th>
+    <td><a href="http://www.twitter.com/dave_bridges"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-a.png" alt="Follow dave_bridges on Twitter"/></a><span property="foaf:accountName" content="dave_bridges"></td>
+</tr>
+<tr typeof="foaf:account" id="linkedin" about="#linkedin">
+   <th><a rel="foaf:accountServiceHomepage" href="http://www.linkedin.com/"><img src="img/linkedin_logo.jpg" width="100px" alt="LinkedIn"/></a></th>
+   <td property="foaf:accountName" content="55104368"><a href="http://www.linkedin.com/pub/dave-bridges/16/555/128" >
+          <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" alt="View Dave Bridges's profile on LinkedIn"/>
+    </a></td>
+</tr>
+<tr typeof="foaf:account" id="mendeley" about="#mendeley">
+  <th><a rel="foaf:accountServiceHomepage" href="http://www.mendeley.com/"><img src="img/mendeley_logo.png" width="100px" alt="Mendeley"/></a></th>
+  <td property="foaf:accountName" content="dave-bridges"><a href="http://www.mendeley.com/profiles/dave-bridges/"><img src="http://www.mendeley.com/embed/icon/1/red/small" alt="Research papers by Dave Bridges"/></a></td>
+</tr>
+<tr typeof="foaf:account" id="gist" about="#gist">
+   <th><a rel="foaf:accountServiceHomepage" href="http://www.gist.com/"><img src="img/gist_logo.jpg" width="50px" alt="Gist"/></a></th>
+   <td property="foaf:accountName" content="davebridges"><a href="http://www.gist.com/davebridges">Dave Bridges</a></td>
+</tr>
+
+<tr typeof="foaf:account" id="researcherid" about="#researcherid">
+ <th><a rel="foaf:accountServiceHomepage" href="http://www.researcherid.com/"><img src="img/rid_logo.gif" width="100px" alt="ResearcherID"/></a></th>
+ <td property="foaf:accountName" content="A-8825-2010"><a href="http://www.researcherid.com/rid/A-8825-2010">A-8825-2010</a></td>
+</tr>
+<tr typeof="foaf:account" id="lastfm" about="#lastfm">
+ <th><a rel="foaf:accountServiceHomepage" href="http://www.last.fm/"><img src="img/lastfm_logo.gif" width="100px" alt="Last.fm"/></a></th>
+ <td property="foaf:accountName" content="davebridges"><a href="http://www.last.fm/user/davebridges/">davebridges</a></td>
+</tr>
+</table>
 </div>
+
+
 
 <hr class="container_12 grid_12" />
 <div id="footer" class="container_12">
@@ -105,7 +136,6 @@
         src="http://www.w3.org/Icons/valid-xhtml-rdfa"
         alt="Valid XHTML + RDFa" height="31" width="88" /></a></p>
 <p><a href="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html">Extract RDF</a></p>
-</div>
 </div>
 </div>
 </body>
