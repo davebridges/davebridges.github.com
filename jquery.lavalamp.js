@@ -9,7 +9,9 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
  *
- * Version: 0.1.0
+ * Version: 0.2.0
+ * Requires Jquery 1.2.1 from version 0.2.0 onwards. 
+ * For jquery 1.1.x, use version 0.1.0 of lavalamp
  */
 
 /**
@@ -82,7 +84,7 @@ $.fn.lavaLamp = function(o) {
 
         function move(el) {
             $back.each(function() {
-                $.dequeue(this, "fx"); }
+                $(this).dequeue(); }
             ).animate({
                 width: el.offsetWidth,
                 left: el.offsetLeft
