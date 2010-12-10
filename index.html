@@ -23,6 +23,7 @@
     <title>Dave Bridges</title>
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
+    <link rel="stylesheet" type="text/css" href="css/lavalamp.css" />	
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
 	<base href="http://davebridges.github.com" />
     <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
@@ -51,9 +52,23 @@
   })();
 
 </script>
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
-<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
-<script type='text/javascript' src='js/dynamicpage.js'></script
+    <link rel="stylesheet" href="lavalamp_test.css" type="text/css" media="screen">
+    <script type="text/javascript" src="jquery-1.1.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery.easing.min.js"></script>
+    <script type="text/javascript" src="jquery.lavalamp.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("#1, #2, #3").lavaLamp({
+                fx: "backout", 
+                speed: 700,
+                click: function(event, menuItem) {
+                    return false;
+                }
+            });
+        });
+    </script>
+
   
   </head>
 
@@ -61,15 +76,22 @@
 <div about="#davebridges" typeof="foaf:Person" class="container_12">
 <!--This section defines semantic information about the Dave Bridges.-->
 <span property="foaf:name" content="Dave Bridges"></span>
-<nav>
-    <ul>
-        <li><a href="#index">Home</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#software">Software</a></li>
-        <li><a href="#contact">Contact</a></li>		
-    </ul>
-</nav>
+<ul class="menu">
+    <li><a href="index.html" title="Home">Home</a></li>
+    <li><a href="cv.html" title="Curriculum Vitae">Curriculum Vitae</a></li>
+    <li><a href="software.html" title="Software">Software</a></li>
+    <li><a href="contact.html" title="Contact Information">Contact</a></li>		
+</ul>
+
+<h3>No Image</h3>
+<ul class="lavaLampNoImage" id="2">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Plant a tree</a></li>
+    <li><a href="#">Travel</a></li>
+
+    <li><a href="#">Ride an elephant</a></li>
+</ul>
+
 
 <div class="container_12" id="index">
 <h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
