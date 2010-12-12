@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
-"
+			http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd"
 >
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
@@ -19,6 +19,10 @@
   <lastmod>2010-12-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.9</priority>
+  <image:image>
+    <image:loc>http://davebridges.github.com/img/profile_picture.jpg</image:loc>
+	<image:title>Dave Bridges Picture</image:title>
+  </image:image>  
 </url>
 <url>
   <loc>http://davebridges.github.com/interests.html</loc>
