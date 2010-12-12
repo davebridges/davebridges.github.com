@@ -3,40 +3,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	  xmlns:owl="http://www.w3.org/2002/07/owl#"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-      xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
 	  xmlns:dcterms="http://purl.org/dc/terms/"
-	  xmlns:bibo="http://purl.org/ontology/bibo/"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
 	  xmlns:v="http://rdf.data-vocabulary.org/#"
-      xmlns:doap="http://usefulinc.com/ns/doap/#"
-	  xmlns:doac="http://ramonantonio.net/doac/0.1/"
 	  xmlns:og="http://opengraphprotocol.org/schema/"
       xmlns:fb="http://www.facebook.com/2008/fbml"
+	  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	  version="XHTML+RDFa 1.0" lang="EN">
 
   <head>
 
 <!--This section defines semantic information about the page.-->
-    <title>Dave Bridges</title>
+    <title property="og:title dc:title">News</title>
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
 	<base href="http://davebridges.github.com" />
     <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
     <meta property="dc:creator" resource="http://davebridges.github.com/#davebridges" />
-    <meta property="og:title" content="Dave Bridges Homepage"/>
-	<meta property="dc:title" content="Dave Bridges Homepage"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="davebridges.github.com"/>
     <meta property="og:image" content="img/profile_picture.jpg"/>
     <meta property="og:site_name" content="Dave Bridges Homepage"/>
     <meta property="fb:admins" content="802530197"/>
-	<meta property="xml:lang" content="en"
+	<meta property="xml:lang" content="en"/>
     <meta property="og:description"
-          content="Website for Dave Bridges, a research scientist at the University of Michigan."/>
+          content="News regarding Dave Bridges, a research scientist at the University of Michigan."/>
   
 <script type="text/javascript">
 
@@ -51,7 +45,8 @@
   })();
 
 </script>
-    <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen">
+  
+ <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen">
     <script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
@@ -71,8 +66,9 @@
   </head>
 
 <body>
+
+<!--This section defines semantic information about the Dave Bridges.-->
 <div id="menu">
-<span property="foaf:name" content="Dave Bridges"></span>
 <ul class="lavaLampNoImage" id="2">
     <li><a href="/index.html" title="Home">Home</a></li>
     <li><a href="/interests.html" title="Research Interests">Research Interests</a></li>
@@ -82,20 +78,29 @@
     <li><a href="/contact.html" title="Contact Information">Contact</a></li>		
 </ul>
 </div>
-<div about="#davebridges" typeof="foaf:Person" class="container_12">
-<!--This section defines semantic information about the Dave Bridges.-->
-<div class="container_12" id="index">
-<h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
-<div class="grid_4" id="profile-photo">
-<img about="#davebridges" src="img/profile_picture.jpg" alt="Dave Bridges" id="profile_picture" rel="foaf:img" rev="foaf:depicts"/>
-<span rel="foaf:based_near" resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan"></span>
-<span rel="owl:sameAs" resource="http://facebook.com/dave.bridges1"></span>
-<span rel="owl:sameAs" resource="http://www.google.com/profiles/dave.bridges1"></span>
-<span rel="owl:sameAs" resource="http://dblp.l3s.de/d2r/page/authors/Dave_Bridges"></span>
-<span rel="owl:sameAs" resource="http://umich.academia.edu/DaveBridges"></span>
-<span rel="foaf:mbox_sha1sum" content="b5decfcc8eefd80374946eb0f4933dac25496774"></span>
-</div>
 
+
+<div about="http://davebridges.github.com/#davebridges" typeof="foaf:Person" class="container_12">
+<h1 class=" container_12 grid_12">News</h1>
+
+<dl>
+<div typeof="v:Event" about="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080" class="container_12">
+ <div class = "grid_8" id="keystone_description"> 
+ <dt>Keystone Symposia Talk</dt>
+      <dd>I have accepted an invitation to give a short talk at the upcoming Keystone <span property="v:eventType">Symposia</span> on <a property = "v:summary" href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080">Inositol Signaling in Pharmacology and Disease</a> (a joint meeting about <a href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1081">PI3K Signaling Pathways</a>) at the <span rel = "v:location" resource="http://dbpedia.org/resource/Keystone_Resort">Keystone Resort</span> in <span rel="v:location" resource="http://dbpedia.org/resource/Keystone%2C_Colorado">Keystone, Colorado</span> from <span property="v:startDate">2010-02-13</span> to <span property="v:endDate">2010-02-18</span>.  For now the title of my short talk will be <strong>Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function</strong>.  As this will be the first external presentation of this work I am very excited.
+        <span rel="v:geo">
+        <span typeof="v:Geo geo:Point">
+          <span property="v:latitude geo:lat" content="39.607465" />
+          <span property="v:longitude geo:long" content="-105.944665" />
+        </span>
+	    </span>
+      </dd>
+ </div>
+   <img class="grid_4" alt="Keystone Symposia on Molecular and Cellular Biology" src="img/keystone_logo.jpg"/>	  
+ </div>	  
+</dl>
+	  
+</div>
 
 <hr class="container_12 grid_12" />
 <div id="footer" class="container_12">
@@ -113,6 +118,7 @@
         src="http://www.w3.org/Icons/valid-xhtml-rdfa"
         alt="Valid XHTML + RDFa" height="31" width="88" /></a></p>
 <p><a href="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html">Extract RDF</a></p>
+</div>
 </div>
 </div>
 </body>
