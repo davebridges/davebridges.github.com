@@ -24,7 +24,6 @@
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
-	<base href="http://davebridges.github.com" />
     <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
     <meta property="dc:creator" resource="http://davebridges.github.com/#davebridges" />
     <meta property="og:title" content="Dave Bridges' Software"/>
@@ -83,7 +82,8 @@
 </ul>
 </div>
 <span property="foaf:name" content="Dave Bridges"></span>
-<div about="http://davebridges.github.com/#davebridges" typeof="foaf:Person" class="container_12">
+<div about="#davebridges" typeof="foaf:Person" class="container_12">
+<span rel="owl:sameAs" resource="http://davebridges.github.com/index.html#davebridges>
 <!--This section defines semantic information about the Dave Bridges.-->
 <span property="foaf:name" content="Dave Bridges"></span>
 <div class="container_12" id="general">
@@ -95,19 +95,19 @@
 <dl class="grid_12">
     <dt typeof="doap:Project" resource="http://github.com/davebridges/mousedb">
        <span rel="owl:sameAs" resource="http://pypi.python.org/pypi/mousedb"/>
-       <span rel="doap:creator doap:maintainer" resource="http://davebridges.github.com/#davebridges" />
+       <span rel="doap:creator doap:maintainer" resource="#davebridges" />
        <a rel="doap:homepage" property="doap:name" href="http://github.com/davebridges/mousedb">MouseDB</a>
     </dt>
        <dd>MouseDB is a web-based application for the storage, organization and communication of data regarding experimental animals.
        </dd>
     <dt typeof="doap:Project" resource="http://code.google.com/p/experimentdb">
-	    <span rel="doap:creator doap:maintainer" resource="http://davebridges.github.com/#davebridges"/>
+	    <span rel="doap:creator doap:maintainer" resource="#davebridges"/>
 	    <a rel="doap:homepage" property="doap:name" href="http://code.google.com/p/experimentdb">ExperimentDB</a>
 	</dt>
         <dd>The ExperimentDB is a web-based application for the storage, organization and communication of experimental data with a focus on molecular biology and biochemical data. This application also stores data regarding reagents, including antibodies, constructs and other biomolecules as well as tracks the distribution of reagents. There is also some preliminary interfaces to other web resources.
 	    </dd>
     <dt typeof="doap:Project" resource="https://github.com/davebridges/biomolecule-scripts">
-	    <span rel="https://github.com/davebridges/biomolecule-scripts" resource="http://davebridges.github.com/#davebridges"/>
+	    <span rel="https://github.com/davebridges/biomolecule-scripts" resource="#davebridges"/>
 		<a rel="doap:homepage" property="doap:name" href="https://github.com/davebridges/biomolecule-scripts">Miscellaneous Snippets</a>
 	</dt>
         <dd>This repository contains miscellaneous python, R and other scripts.
