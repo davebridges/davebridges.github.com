@@ -19,6 +19,7 @@
     <title property="og:title dc:title">News</title>
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
+	<link rel="alternate" type="application/rss+xml" href="feeds/news.xml" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
 	<base href="http://davebridges.github.com" />
     <link rel="foaf:primaryTopic" href="http://davebridges.github.com/#davebridges" />
@@ -81,11 +82,11 @@
 
 
 <div about="http://davebridges.github.com/#davebridges" typeof="foaf:Person" class="container_12">
-<h1 class=" container_12 grid_12">News</h1>
+<h1 class=" container_12 grid_12">News <a type="application/rss+xml" href="feeds/news.xml"><img src="img/rss.png" alt="RSS Feed"/></a></h1>
 
 <dl>
-<div typeof="v:Event" about="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080" class="container_12">
- <div class = "grid_8" id="keystone_description"> 
+<div typeof="v:Event" about="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080" class="container_12" id="keystone">
+ <div class = "grid_8"> 
  <dt>Keystone Symposia Talk</dt>
       <dd>I have accepted an invitation to give a short talk at the upcoming Keystone <span property="v:eventType">Symposia</span> on <a property = "v:summary" href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080">Inositol Signaling in Pharmacology and Disease</a> (a joint meeting about <a href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1081">PI3K Signaling Pathways</a>) at the <span rel = "v:location" resource="http://dbpedia.org/resource/Keystone_Resort">Keystone Resort</span> in <span rel="v:location" resource="http://dbpedia.org/resource/Keystone%2C_Colorado">Keystone, Colorado</span> from <span property="v:startDate">2010-02-13</span> to <span property="v:endDate">2010-02-18</span>.  For now the title of my short talk will be <strong>Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function</strong>.  As this will be the first external presentation of this work I am very excited.
         <span rel="v:geo">
@@ -96,7 +97,7 @@
 	    </span>
       </dd>
  </div>
-   <img class="grid_4" alt="Keystone Symposia on Molecular and Cellular Biology" src="img/keystone_logo.jpg"/>	  
+   <img rel="v:photo" class="grid_4" alt="Keystone Symposia on Molecular and Cellular Biology" src="img/keystone_logo.jpg"/>	  
  </div>	  
 </dl>
 	  

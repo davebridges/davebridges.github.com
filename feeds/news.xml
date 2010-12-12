@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Dave Bridges' News</title>
+<description>News regarding Dave Bridges, a research scientist at the University of Michigan.</description>
+<link>http://davebridges.github.com/news.html</link>
+    <item>
+        <title>Keystone Symposia Talk</title>
+        <description>I have accepted an invitation to give a short talk at the upcoming Keystone Symposia on <a href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080">Inositol Signaling in Pharmacology and Disease</a> (a joint meeting about <a href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1081">PI3K Signaling Pathways</a>) at the Keystone Resort in Keystone, Colorado from 2010-02-13 to 2010-02-18.  For now the title of my short talk will be <strong>Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function</strong>.  As this will be the first external presentation of this work I am very excited.
+        </description>
+        <link>http://davebridges.github.com/news.html/#keystone</link>
+    </item>
+</channel>
+</rss>
