@@ -10,46 +10,18 @@ a {
 text-decoration: none
 }
 
-#main {
-    padding: 2%;
-}
-
-#footer {
-    padding: 2%;
-}
 
 img {
     border: none;
 	}
 	
-td {
-	max-width: 450px;
-	padding: 5px;
-	}
-
 dt { 
     color: cadetblue;
     font-size: large;	
 }
 	
-li {
-	max-width: 450px;
-	}	
-
-dd{
-	max-width: 450px;
-	}	
-
-dt{
-	max-width: 450px;
-	}		
-	
-p {
-	/* if width = 30 X font size that gives about 65 characters per line */
-	font-size: 15px;
-	max-width: 450px;
-	/* suggested line height is 2-5px larger than font size*/
-	line-height: 19px;
+.figure_legend {
+    text-align: center;
 }
 
     
