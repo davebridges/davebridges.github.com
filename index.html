@@ -77,6 +77,29 @@
     <li><a href="contact.html" title="Contact Information">Contact</a></li>		
 </ul>
 </div>
+
+
+<div xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Person">
+   My name is <span property="v:name">Bob Smith</span>,
+   but people call me <span property="v:nickname">Smithy</span>.
+   Here is my homepage:
+   <a href="http://www.example.com" rel="v:url">www.example.com</a>.
+   I live in
+   <span rel="v:address">
+      <span typeof="v:Address">
+         <span property="v:locality">Albuquerque</span>,
+         <span property="v:region">NM</span>
+      </span>
+   </span>
+   and work as an <span property="v:title">engineer</span>
+   at <span property="v:affiliation">ACME Corp</span>.
+   My friends:
+   <a href="http://darryl-blog.example.com" rel="v:friend">Darryl</a>,
+   <a href="http://edna-blog.example.com" rel="v:friend">Edna</a>
+</div>
+
+
+
 <div id="davebridges" about="#davebridges" typeof="foaf:Person v:Person" class="container_12">
 <!--This section defines semantic information about the Dave Bridges.-->
 <h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
@@ -123,7 +146,7 @@
 <span rel="foaf:mbox_sha1sum" content="9143a672ed20a26a5b0a28b38c42e612be7da84c"/>
 <span rel="foaf:mbox_sha1sum" content="97376f29df681fbfac61329e9473f73d90f98889"/>
 <div class="grid_6">
-<p id="aboutme">I am a <span property="v:role">Biochemist</span> and <span property="v:role">Cell Biologist</span> currently working at the <a rel="v:affiliation" href="www.umich.edu" resource="http://dbpedia.org/resource/University_of_Michigan">University of Michigan</a>, <a rel="v:affiliation" href="www.lsi.umich.edu">Life Sciences Institute</a> in <span rel="foaf:based_near" resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan">Ann Arbor</span>, Michigan.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended Bishop Carroll High School.</p>
+<p id="aboutme">I am a <span property="v:role">Biochemist</span> and <span property="v:role">Cell Biologist</span> currently working at the <a rel="v:affiliation" href="www.umich.edu" resource="http://dbpedia.org/resource/University_of_Michigan">University of Michigan</a>, <a rel="v:affiliation" href="http://www.lsi.umich.edu">Life Sciences Institute</a> in <span rel="foaf:based_near" resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan">Ann Arbor</span>, Michigan.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended Bishop Carroll High School.</p>
 <div rel="doac:education" id="education"><span rel="owl:sameAs" resource="http://davebridges.github.com/cv.html#education" />
 <p typof="doac:Degree" id="bsc" about="#bsc"><span rel="owl:sameAs" resource="http://davebridges.github.com/cv.html#bsc"/>
 Upon graduation I completed a <span property="doac:title">Bachelor's of Science</span> in <span property="doac:subject">Biochemistry</span> in the <a about="#bsc" property="foaf:organization" href="http://bio.ucalgary.ca/">Department of Biological Sciences</a> of the <a rel="foaf:organization" href="http://www.ucalgary.ca" resource="http://dbpedia.org/resource/University_of_Calgary">University of Calgary</a>.
