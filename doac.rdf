@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns="http://www.w3.org/2002/07/owl#" 
-	xmlns="http://xmlns.com/foaf/0.1/"
-	xmlns="http://ramonantonio.net/doac/0.1/">
+	xmlns:owl="http://www.w3.org/2002/07/owl#" 
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:doac="http://ramonantonio.net/doac/0.1/"
+	>
 
 <rdf:Description rdf:about="http://davebridges.github.com/">
 	<title xmlns="http://purl.org/dc/terms/">"Dave Bridges"</title>

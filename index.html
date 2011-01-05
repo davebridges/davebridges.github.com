@@ -13,7 +13,7 @@
 	  xmlns:v="http://rdf.data-vocabulary.org/#"
       xmlns:doap="http://usefulinc.com/ns/doap/#"
 	  xmlns:doac="http://ramonantonio.net/doac/0.1/"
-	  xmlns:og="http://opengraphprotocol.org/schema/"
+	  xmlns:og="http://ogp.me/ns#"
       xmlns:fb="http://www.facebook.com/2008/fbml"
 	  version="XHTML+RDFa 1.0" lang="EN">
 
@@ -81,9 +81,18 @@
     <li><a href="contact.html" title="Contact Information">Contact</a></li>		
 </ul>
 </div>
-<div about="#davebridges" typeof="foaf:Person" class="container_12">
+<div about="#davebridges" typeof="foaf:Person v:Person" class="container_12">
 <!--This section defines semantic information about the Dave Bridges.-->
 <h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
+<span property="v:name foaf:name" content="Dave Bridges">
+<span property="doac:position v:title" content="Research Fellow"/> 
+   <span rel="v:address">
+      <span typeof="v:Address" id="location">
+         <span property="v:city" content="Ann Arbor"/>
+         <span property="v:region" content="Michigan" />
+		 <span property="v:country-name" content="United States of America">
+      </span>
+<span rel="foaf:homepage v:homepage" resource="http://davebridges.github.com">
 <span rel="owl:sameAs" resource="http://davebridges.github.com/#davebridges">
 <span rel="owl:sameAs" resource="http://davebridges.github.com/cv.html#davebridges">
 <span rel="owl:sameAs" resource="http://davebridges.github.com/contact.html#davebridges">
@@ -91,6 +100,7 @@
 <span rel="owl:sameAs" resource="http://davebridges.github.com/interests.html#davebridges">
 <span rel="owl:sameAs" resource="http://davebridges.github.com/software.html#davebridges">
 <span rel="owl:sameAs" resource="http://www.lsi.umich.edu/facultyresearch/labs/saltiel/members#davebridges">
+<span rel="owl:sameAs" resource="http://davebridges.github.com/#davebridges">
 <span rel="owl:sameAs" resource="http://facebook.com/dave.bridges1"></span>
 <span rel="owl:sameAs" resource="http://www.google.com/profiles/dave.bridges1"></span>
 <span rel="owl:sameAs" resource="http://dblp.l3s.de/d2r/page/authors/Dave_Bridges"></span>
@@ -102,7 +112,7 @@
 <span rel="foaf:mbox_sha1sum" content="9143a672ed20a26a5b0a28b38c42e612be7da84c"></span>
 <span rel="foaf:mbox_sha1sum" content="97376f29df681fbfac61329e9473f73d90f98889"></span>
 <div class="grid_6">
-<p id="aboutme">I am a Biochemist and Cell Biologist currently working at the University of Michigan, Life Sciences Institute in <span rel="foaf:based_near" resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan">Ann Arbor</span>, Michigan.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended Bishop Carroll High School.</p>
+<p id="aboutme">I am a <span property="v:role">Biochemist</span> and <span property="v:role">Cell Biologist</span> currently working at the <a rel="v:affiliation" href="www.umich.edu" resource="http://dbpedia.org/resource/University_of_Michigan">University of Michigan</a>, <a rel="v:affiliation" href="www.lsi.umich.edu">Life Sciences Institute</a> in <span rel="foaf:based_near" resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan">Ann Arbor</span>, Michigan.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended Bishop Carroll High School.</p>
 <div rel="doac:education" id="education" owl:sameAs="http://davebridges.github.com/cv.html#education" >
 <p typof="doac:Degree" id="bsc" about="#bsc" owl:sameAs="http://davebridges.github.com/cv.html#bsc">
 Upon graduation I completed a <span property="doac:title">Bachelor's of Science</span> in <span property="doac:subject">Biochemistry</span> in the <a about="#bsc" property="foaf:organization" href="http://bio.ucalgary.ca/">Department of Biological Sciences</a> of the <a rel="foaf:organization" href="http://www.ucalgary.ca" resource="http://dbpedia.org/resource/University_of_Calgary">University of Calgary</a>.
@@ -116,7 +126,7 @@ Greg is an expert in <span about="#davebridges" rel="foaf:interest" resource="ht
 
 <div rel="doac:experience" id="experience" owl:sameAs="http://davebridges.github.com/cv.html#experience" >
 <p typof="doac:Experience" id="michigan-pdf" about="#mighigan-pdf" owl:sameAs="http://davebridges.github.com/cv.html#michigan-pdf">
-Since <span property="doac:date-starts">2005</span>, I have been a Post-Doctoral <span property="doac:position">Research Fellow</span> in <a rel="foaf:group" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel's Laboratory</a> at the <a rel="foaf:organization" href="http://lsi.umich.edu">Life Sciences Institute</a> of the <a rel="foaf:organization" href="http://umich.edu">University of Michigan</a>.  Click <a href="interests.html">here</a> for my current research interests.
+Since <span property="doac:date-starts">2005</span>, I have been a Post-Doctoral <span property="doac:position v:title">Research Fellow</span> in <a rel="foaf:group" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel's Laboratory</a> at the <a rel="foaf:organization" href="http://lsi.umich.edu">Life Sciences Institute</a> of the <a rel="foaf:organization" href="http://umich.edu">University of Michigan</a>.  Click <a href="interests.html">here</a> for my current research interests.
 </p>
 </div>
 </div>
