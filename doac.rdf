@@ -36,6 +36,10 @@
 	<foaf:mbox_sha1sum rdf:nodeID="node15ieccg17x183867"/>
 	<foaf:mbox_sha1sum>e95e655b084d6cd15ac47c5950f8ec5c2aa547ce</foaf:mbox_sha1sum>
 	<foaf:mbox_sha1sum>1abc45397d951b25631087bc14cd2afbd525b96f</foaf:mbox_sha1sum>
+	<foaf:mbox_sha1sum>96f9fd11cb4c43197b4f010fa50bb7cb71136c16</foaf:mbox_sha1sum>
+	<foaf:mbox_sha1sum>6ce8773dd3a42a1c0b10b03477ace0f390e2fdcc</foaf:mbox_sha1sum>
+	<foaf:mbox_sha1sum>9143a672ed20a26a5b0a28b38c42e612be7da84c</foaf:mbox_sha1sum>
+	<foaf:mbox_sha1sum>97376f29df681fbfac61329e9473f73d90f98889</foaf:mbox_sha1sum>
 	<foaf:interest rdf:resource="http://dbpedia.org/page/Metabolism"/>
 	<foaf:interest rdf:resource="http://dbpedia.org/resource/Signal_transduction"/>
 	<foaf:interest rdf:resource="http://dbpedia.org/resource/Vesicle_trafficking"/>
