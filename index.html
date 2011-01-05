@@ -80,26 +80,18 @@
 
 
 <div typeof="v:Person">
-   <span property="v:name">Bob Smith</span>,
+   <span property="v:name">Dave Bridges</span>,
    <span rel="v:address">
       <span typeof="v:Address">
-         <span property="v:locality">Ann Arbor</span>,
-         <span property="v:region">MI</span>
+         <span property="v:city" content="Ann Arbor"/>
+         <span property="v:region" content="Michigan" />
+		 <span property="v:country-name" content="United States of America"/>
       </span>
    </span>
-   <span property="v:title">research scientist</span>
-   <span property="v:affiliation">University of Michigan</span>.
-</div>
-
-
-
-<div id="davebridges" about="#davebridges" typeof="foaf:Person v:Person" class="container_12">
-<!--This section defines semantic information about the Dave Bridges.-->
-<h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
-<span property="v:name foaf:name" content="Dave Bridges"/>
-<span property="doac:position v:title" content="Research Fellow"/> 
-<span property="v:organization" content="University of Michigan"/>
-<span rel="v:affiliation">
+   <span property="v:title">Research Fellow</span>
+   <span property="v:role">Research Scientist</span>
+   <span property="v:affiliation">University of Michigan</span>
+   <span rel="v:affiliation">
 	<span typof="v:Organization">
 		<span property="v:name" content="University of Michigan"/>
 		<span rel="v:url" resource="www.umich.edu"/>
@@ -112,14 +104,18 @@
 		</span>
 	</span>
 </span>
- <span rel="v:role" content="Research Scientist"/>
-  <span rel="v:address">
-      <span typeof="v:Address" id="location">
-         <span property="v:city" content="Ann Arbor"/>
-         <span property="v:region" content="Michigan" />
-		 <span property="v:country-name" content="United States of America"/>
-      </span>
-    </span>
+</div>
+
+
+
+<div id="davebridges" about="#davebridges" typeof="foaf:Person v:Person" class="container_12">
+<!--This section defines semantic information about the Dave Bridges.-->
+<h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
+<span property="v:name foaf:name" content="Dave Bridges"/>
+<span property="doac:position v:title" content="Research Fellow"/> 
+
+
+
 <span rel="foaf:homepage v:homepage" resource="http://davebridges.github.com"/>
 <span rel="owl:sameAs" resource="http://davebridges.github.com/cv.html#davebridges"/>
 <span rel="owl:sameAs" resource="http://davebridges.github.com/contact.html#davebridges"/>
