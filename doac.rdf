@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns="http://www.w3.org/2002/07/owl#" 
+	xmlns="http://xmlns.com/foaf/0.1/"
+	xmlns="http://ramonantonio.net/doac/0.1/">
 
 <rdf:Description rdf:about="http://davebridges.github.com/">
 	<title xmlns="http://purl.org/dc/terms/">"Dave Bridges"</title>
@@ -22,48 +25,50 @@
 
 <rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-	<name xmlns="http://xmlns.com/foaf/0.1/">"Dave Bridges"</name>
-	<givenName xmlns="http://xmlns.com/foaf/0.1/">"Dave"</givenName>
-	<familyName xmlns="http://xmlns.com/foaf/0.1/">"Bridges"</familyName>
-	<img xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
-	<depicts xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://davebridges.github.com/#davebridges"/>
-	<based_near xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan"/>
-	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://facebook.com/dave.bridges1"/>
-	<sameAs xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.google.com/profiles/dave.bridges"/>
-	<mbox_sha1sum xmlns="http://xmlns.com/foaf/0.1/" rdf:nodeID="node15ieccg17x183867"/>
-	<interest xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/page/Metabolism"/>
-	<interest xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Signal_transduction"/>
-	<interest xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Vesicle_trafficking"/>
-	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#bsc"/>
-	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#bsc"/>
-	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#phd"/>
-	<education xmlns="http://ramonantonio.net/doac/0.1/" rdf:resource="http://davebridges.github.com/#phd"/>
+	<name">"Dave Bridges"</name>
+	<foaf:givenName>"Dave"</givenName>
+	<foaf:familyName>"Bridges"</familyName>
+	<foaf:img rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<foaf:depicts rdf:resource="http://davebridges.github.com/#davebridges"/>
+	<foaf:based_near rdf:resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan"/>
+	<owl:sameAs rdf:resource="http://facebook.com/dave.bridges1"/>
+	<owl:sameAs rdf:resource="http://www.google.com/profiles/dave.bridges"/>
+	<foaf:mbox_sha1sum rdf:nodeID="node15ieccg17x183867"/>
+	<foaf:mbox_sha1sum>e95e655b084d6cd15ac47c5950f8ec5c2aa547ce</foaf:mbox_sha1sum>
+	<foaf:mbox_sha1sum>1abc45397d951b25631087bc14cd2afbd525b96f</foaf:mbox_sha1sum>
+	<foaf:interest rdf:resource="http://dbpedia.org/page/Metabolism"/>
+	<foaf:interest rdf:resource="http://dbpedia.org/resource/Signal_transduction"/>
+	<foaf:interest rdf:resource="http://dbpedia.org/resource/Vesicle_trafficking"/>
+	<doac:education rdf:resource="http://davebridges.github.com/#bsc"/>
+	<doac:education rdf:resource="http://davebridges.github.com/#bsc"/>
+	<doac:education rdf:resource="http://davebridges.github.com/#phd"/>
+	<doac:education rdf:resource="http://davebridges.github.com/#phd"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://davebridges.github.com/#bsc">
-	<title xmlns="http://ramonantonio.net/doac/0.1/">"Bachelor's of Science"</title>
-	<subject xmlns="http://ramonantonio.net/doac/0.1/">"Biochemistry"</subject>
-	<date-starts xmlns="http://ramonantonio.net/doac/0.1/">"September 1996"</date-starts>
-	<date-ends xmlns="http://ramonantonio.net/doac/0.1/">"June 2000"</date-ends>
-	<organization xmlns="http://xmlns.com/foaf/0.1/">"Department of Biological Sciences"</organization>
-	<organization xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/University_of_Calgary"/>
+	<doac:title>"Bachelor's of Science"</title>
+	<doac:subject>"Biochemistry"</subject>
+	<doac:date-starts>"September 1996"</date-starts>
+	<doac:date-ends>"June 2000"</date-ends>
+	<doac:organization>"Department of Biological Sciences"</organization>
+	<doac:organization rdf:resource="http://dbpedia.org/resource/University_of_Calgary"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://davebridges.github.com/#phd">
-	<title xmlns="http://ramonantonio.net/doac/0.1/">"Doctor of Philosophy"</title>
-	<subject xmlns="http://ramonantonio.net/doac/0.1/">"Biochemistry"</subject>
-	<date-starts xmlns="http://ramonantonio.net/doac/0.1/">"September 2000"</date-starts>
-	<date-ends xmlns="http://ramonantonio.net/doac/0.1/">"May 2005"</date-ends>
-	<group xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members"/>
+	<doac:title>"Doctor of Philosophy"</title>
+	<doac:subject>"Biochemistry"</subject>
+	<doac:date-starts>"September 2000"</date-starts>
+	<doac:date-ends>"May 2005"</date-ends>
+	<doac:group rdf:resource="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html#members">
-	<name xmlns="http://xmlns.com/foaf/0.1/">"Moorhead Laboratory"</name>
+	<foaf:name>"Moorhead Laboratory"</name>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://davebridges.github.com/#phd">
-	<organization xmlns="http://xmlns.com/foaf/0.1/">"Department of Biological Sciences"</organization>
-	<organization xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/University_of_Calgary"/>
+	<foaf:organization>"Department of Biological Sciences"</organization>
+	<foaf:organization rdf:resource="http://dbpedia.org/resource/University_of_Calgary"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
