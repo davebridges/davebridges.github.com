@@ -1,3 +1,8 @@
+html {
+	font-family:"Times New Roman";
+	
+}
+	
 h1 {
 	background: gray;
 	text-align: center;
@@ -6,10 +11,18 @@ h1 {
 }
 
 a { 
-
-text-decoration: none
+    text-decoration: none;
+	color: #2288bb;
+	
 }
 
+a:visited {
+    color: #888888;
+}
+
+a:hover {
+    color: #33aaff;
+}
 
 img {
     border: none;
