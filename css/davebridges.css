@@ -4,10 +4,10 @@ html {
 }
 	
 h1 {
-	background: gray;
 	text-align: center;
 	border: 1px solid #000;
     background-color: #e6e8ea;
+	color: #000000;
 }
 
 a { 
