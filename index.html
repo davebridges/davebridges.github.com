@@ -19,7 +19,7 @@
   <head>
 
 <!--This section defines semantic information about the page.-->
-    <title property="og:title dc:title">Dave Bridges</title>
+    <title property="og:title dc:title og:site_name">Dave Bridges Homepage</title>
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
 	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
@@ -29,7 +29,6 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="davebridges.github.com"/>
     <meta property="og:image" content="img/profile_picture.jpg"/>
-    <meta property="og:site_name" content="Dave Bridges Homepage"/>
     <meta property="fb:admins" content="802530197"/>
 	<meta property="xml:lang" content="en"/>
     <meta property="og:description"
@@ -81,21 +80,7 @@
 </div>
 
 
-<div typeof="v:Person">
-   <span property="v:name" content="Bob Smith"/>
-   <span rel="v:address">
-      <span typeof="v:Address">
-         <span property="v:locality" content="Ann Arbor"/>
-         <span property="v:region" content="Michigan"/>
-      </span>
-   </span>
-   <span property="v:title" content="Research Scientist"/>
-   <span property="v:affiliation" content="University of Michigan"/>
-</div>
-
-
-
-<div id="davebridges" about="#davebridges" typeof="foaf:Person v:Person" class="container_12">
+<div id="davebridges" about="#davebridges" typeof="v:Person foaf:Person" class="container_12">
 <!--This section defines semantic information about the Dave Bridges.-->
 <h1 class="grid_12"><span property="foaf:givenName">Dave</span> <span property="foaf:familyName">Bridges</span></h1>
 <span property="v:name foaf:name" content="Dave Bridges"/>
