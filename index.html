@@ -18,17 +18,26 @@
 
   <head>
 
-<!--This section defines semantic information about the page.-->
-    <title property="og:title dc:title og:site_name">Dave Bridges Homepage</title>
+<!--This section defines metadata about the page.-->
+    <title property="og:title dc:title">Dave Bridges Homepage</title>
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
     <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
-	<link rel="meta" type="application/rdf+xml" title="FOAF" href="doac.rdf" />		
+	<link rel="meta" type="application/rdf+xml" title="Dave Bridges DOAC File" href="doac.rdf" />	
+<!--This section sets openid information.  See http://lifehacker.com/5566470/how-to-set-up-openid-on-your-own-domain-->
+	<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" >
+	<link rel="openid2.local_id" href="http://www.google.com/profiles/dave.bridges" >	
     <link rel="alternate" type="application/rss+xml" title="Dave&#39; Blog - RSS" href="http://dave-bridges.blogspot.com/feeds/posts/default?alt=rss" /> 
     <link rel="service.post" type="application/atom+xml" title="Dave&#39; Blog - Atom" href="http://www.blogger.com/feeds/2056279893985574641/posts/default" /> 	
     <link rel="foaf:primaryTopic dc:creator" href="http://davebridges.github.com#davebridges" />
+	<meta property="og:email" content="dave.bridges@gmail.com"/>
+    <meta property="og:locality" content="Ann Arbor" />
+    <meta property="og:region" content="MI" />
+    <meta property="og:postal-code" content="48104" />
+    <meta property="og:country-name" content="USA" />	
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="davebridges.github.com"/>
-    <meta property="og:image" content="img/profile_picture.jpg"/>
+    <meta property="og:url" content="http://davebridges.github.com"/>
+    <meta property="og:image" content="http://davebridges.github.com/img/profile_picture.jpg"/>
+    <meta property="og:site_name" content="Dave Bridges Homepage"/>	
     <meta property="fb:admins" content="802530197"/>
 	<meta property="xml:lang" content="en"/>
     <meta property="og:description"
@@ -88,6 +97,8 @@
 <span rel="foaf:homepage v:homepage" resource="http://davebridges.github.com"/>
 <span rel="owl:sameAs" resource="http://davebridges.github.com/cv.html#davebridges"/>
 <span rel="owl:sameAs" resource="http://davebridges.github.com/contact.html#davebridges"/>
+<span rel="owl:sameAs" resource="http://zillow.com/profile/davebridges"/>
+<span rel="owl:sameAs" resource="http://en.wikipedia.org/wiki/User:Davebridges" />
 <span rel="owl:sameAs" resource="http://davebridges.github.com/news.html#davebridges"/>
 <span rel="owl:sameAs" resource="http://davebridges.github.com/interests.html#davebridges"/>
 <span rel="owl:sameAs" resource="http://davebridges.github.com/software.html#davebridges"/>
@@ -107,7 +118,7 @@
 <span rel="foaf:mbox_sha1sum" content="9143a672ed20a26a5b0a28b38c42e612be7da84c"/>
 <span rel="foaf:mbox_sha1sum" content="97376f29df681fbfac61329e9473f73d90f98889"/>
 <div class="grid_6">
-<p id="aboutme">I am a <span about="#davebridges" property="v:role">Research Scientist</span> currently working at the <a href="www.umich.edu"><span about="#davebridges" property="v:organization">University of Michigan</span></a>, <a href="http://www.lsi.umich.edu">Life Sciences Institute</a> in <span about="#davebridges" property="v:location">Ann Arbor, Michigan</span>.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended Bishop Carroll High School.</p>
+<p id="aboutme">I am a <span about="#davebridges" property="v:role">Research Scientist</span> currently working at the <a href="http://www.umich.edu"><span about="#davebridges" property="v:organization">University of Michigan</span></a>, <a href="http://www.lsi.umich.edu">Life Sciences Institute</a> in <span about="#davebridges" property="v:location">Ann Arbor, Michigan</span>.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended Bishop Carroll High School.</p>
 <div id="education">
 <p id="bsc">Upon graduation I completed a Bachelor's of Science in Biochemistry in the <a href="http://bio.ucalgary.ca/">Department of Biological Sciences</a> of the <a href="http://www.ucalgary.ca">University of Calgary</a>.
 During this time, I had my first laboratory experience as an Undergraduate thesis student with Dr. David Waisman.  In short order I had caught the research bug and prepared for an advanced degree in biological sciences.
