@@ -26,9 +26,9 @@
 
 <rdf:Description rdf:about="http://davebridges.github.com/#davebridges">
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-	<name">"Dave Bridges"</name>
-	<foaf:givenName>"Dave"</givenName>
-	<foaf:familyName>"Bridges"</familyName>
+	<foaf:name">"Dave Bridges"</foaf:name>
+	<foaf:givenName>"Dave"</foaf:givenName>
+	<foaf:familyName>"Bridges"</foaf:familyName>
 	<foaf:img rdf:resource="http://davebridges.github.com/#davebridges"/>
 	<foaf:depicts rdf:resource="http://davebridges.github.com/#davebridges"/>
 	<foaf:based_near rdf:resource="http://dbpedia.org/resource/Ann_Arbor%2C_Michigan"/>
