@@ -8,6 +8,8 @@ h1 {
 	border: 1px solid #000;
     background-color: #e6e8ea;
 	color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a { 
@@ -32,9 +34,6 @@ dt {
     color: cadetblue;
     font-size: large;	
 }
-	
-.figure_legend {
-    text-align: center;
-}
+
 
     

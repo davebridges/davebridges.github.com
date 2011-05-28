@@ -28,15 +28,12 @@
                         color: #fff;
                         outline: none;
                         text-align: center;
-                        top: 7px;
                         text-transform: uppercase;
                         letter-spacing: 0;
                         z-index: 10;
                         display: block;
-                        float: left;
                         height: 30px;
                         position: relative;
-                        overflow: hidden;
                         margin: auto 10px;    
                     }
                         .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
@@ -70,15 +67,12 @@
                         color: #000;
                         outline: none;
                         text-align: center;
-                        top: 7px;
                         text-transform: uppercase;
                         letter-spacing: 0;
                         z-index: 10;
                         display: block;
-                        float: left;
                         height: 30px;
                         position: relative;
-                        overflow: hidden;
                         margin: auto 10px;
                     }
                         .lavaLampNoImage li a:hover, .lavaLampNoImage li a:active, .lavaLampNoImage li a:visited {
@@ -112,15 +106,12 @@
                         color: #000;
                         outline: none;
                         text-align: center;
-                        top: 7px;
                         text-transform: uppercase;
                         letter-spacing: 0;
                         z-index: 10;
                         display: block;
-                        float: left;
                         height: 30px;
                         position: relative;
-                        overflow: hidden;
                         margin: auto 10px;
                     }   
                         .lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
