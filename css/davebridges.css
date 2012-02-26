@@ -10,6 +10,11 @@ h1 {
 	color: #000000;
 }
 
+
+h2 {
+	font-size: large;
+}
+
 a { 
     text-decoration: none;
 	color: #2288bb;
@@ -30,7 +35,7 @@ img {
 	
 dt { 
     color: cadetblue;
-    font-size: large;	
+    font-weight:bold;
 }
 	
 .figure_legend {
