@@ -14,8 +14,12 @@
 
 <!--This section defines metadata about the page.-->
     <title property="og:title dc:title">News</title>
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->    
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
-    <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
 	<link rel="alternate" type="application/rss+xml" href="feeds/news.rss" />
 	<link rel="meta" type="application/rdf+xml" title="Dave Bridges DOAC File" href="doac.rdf" />	
     <link rel="foaf:primaryTopic dc:creator" href="http://davebridges.github.com#davebridges" />
@@ -67,29 +71,29 @@
   </head>
 
 <body>
-
+<div class="container" id="all">
 <!--This section defines semantic information about the Dave Bridges.-->
-<div id="menu">
+<div id="menubar" class="span-24">
 <ul class="lavaLampNoImage" id="2">
-    <li><a href="index.html" title="Home">Home</a></li>
-    <li><a href="interests.html" title="Research Interests">Research Interests</a></li>
-    <li><a href="cv.html" title="Curriculum Vitae">Curriculum Vitae</a></li>
-    <li><a href="software.html" title="Software">Software</a></li>
-	<li><a href="news.html" title="News">News</a></li>	
-	<li><a href="http://dave-bridges.blogspot.com" title="Blog">Blog</a></li>			
-    <li><a href="contact.html" title="Contact Information">Contact</a></li>		
+    <li class="span-3"><a href="index.html" title="Home">Home</a></li>
+    <li class="span-3"><a href="interests.html" title="Research Interests">Research Interests</a></li>
+    <li class="span-3"><a href="cv.html" title="Curriculum Vitae">Curriculum Vitae</a></li>
+    <li class="span-3"><a href="software.html" title="Software">Software</a></li>
+	<li class="span-3 current"><a href="news.html" title="News">News</a></li>	
+	<li class="span-3"><a href="http://dave-bridges.blogspot.com" title="Blog">Blog</a></li>		
+    <li class="span-3"><a href="contact.html" title="Contact Information">Contact</a></li>		
 </ul>
 </div>
 
 
-<div about="http://davebridges.github.com/#davebridges" typeof="foaf:Person" class="container_12">
-<h1 class=" container_12 grid_12">News <a type="application/rss+xml" href="feeds/news.rss"><img src="img/rss.png" alt="RSS Feed" title="Subscribe to News"/></a></h1>
+<div about="http://davebridges.github.com/#davebridges" typeof="foaf:Person"  class="span-24">
+<h1>News <a type="application/rss+xml" href="feeds/news.rss"><img src="img/rss.png" alt="RSS Feed" title="Subscribe to News"/></a></h1>
 
 <dl>
-<div typeof="v:Event" about="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080" class="container_12" id="keystone">
- <div class = "grid_8"> 
+<div typeof="v:Event" about="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080" class="span-24" id="keystone">
+ <div class = "span-16"> 
  <dt>Keystone Symposia Talk</dt>
-      <dd>I have accepted an invitation to give a short talk at the upcoming Keystone <span property="v:eventType">Symposia</span> on <a property = "v:summary" href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080">Inositol Signaling in Pharmacology and Disease</a> (a joint meeting about <a href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1081">PI3K Signaling Pathways</a>) at the <span rel = "v:location" resource="http://dbpedia.org/resource/Keystone_Resort">Keystone Resort</span> in <span rel="v:location" resource="http://dbpedia.org/resource/Keystone%2C_Colorado">Keystone, Colorado</span> from <span property="v:startDate">2010-02-13</span> to <span property="v:endDate">2010-02-18</span>.  For now the title of my short talk will be <strong>Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function</strong>.  As this will be the first external presentation of this work I am very excited.
+      <dd>I have accepted an invitation to give a short talk at the upcoming Keystone <span property="v:eventType">Symposia</span> on <a property = "v:summary" href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1080">Inositol Signaling in Pharmacology and Disease</a> (a joint meeting about <a href="https://www.keystonesymposia.org/Meetings/ViewMeetings.cfm?MeetingID=1081">PI3K Signaling Pathways</a>) at the <span rel = "v:location" resource="http://dbpedia.org/resource/Keystone_Resort">Keystone Resort</span> in <span rel="v:location" resource="http://dbpedia.org/resource/Keystone%2C_Colorado">Keystone, Colorado</span> from <span property="v:startDate">2010-02-13</span> to <span property="v:endDate">2010-02-18</span>.  The title of my short talk will be <strong>Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function</strong>.
         <span rel="v:geo">
         <span typeof="v:Geo geo:Point">
           <span property="v:latitude geo:lat" content="39.607465" />
@@ -98,27 +102,41 @@
 	    </span>
       </dd>
  </div>
-   <a href="http://www.keystonesymposia.org/"><img rel="v:photo" class="grid_4" alt="Keystone Symposia on Molecular and Cellular Biology" src="img/keystone_logo.jpg"/></a>
+   <a href="http://www.keystonesymposia.org/"><img rel="v:photo" class="span-8 last" alt="Keystone Symposia on Molecular and Cellular Biology" src="img/keystone_logo.jpg"/></a>
  </div>	  
 </dl>
 	  
 </div>
 
-<hr class="container_12 grid_12" />
-<div id="footer" class="container_12">
-<p class="grid_3"><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like></p>
-<div class="grid_3">
+<hr/>
+<div class="span-24" id="footer">
+<div class="span-3" id="google-plus>
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone href="http://davebridges.github.com"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</div>
+<div class="span-3" id="facebook-like">
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like>
+</div>
+<div class="span-3" id="linkedin-like">
+<script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
+</div>
+<div class="span-3" id="twitter">
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="dave_bridges">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+<div class="span-6 last">
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">News</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://davebridges.github.com" property="cc:attributionName" rel="cc:attributionURL">Dave Bridges</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 </div>
-<div class="grid_3">
-<p about=""
-     resource="http://www.w3.org/TR/rdfa-syntax"
-     rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
-    <a href="http://validator.w3.org/check?uri=referer"><img
-        src="http://www.w3.org/Icons/valid-xhtml-rdfa"
-        alt="Valid XHTML + RDFa" height="31" width="88" /></a></p>
-<p><a href="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html">Extract RDF</a></p>
 </div>
+
 </div>
 </div>
 </body>

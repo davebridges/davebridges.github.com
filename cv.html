@@ -17,8 +17,12 @@
 
 <!--This section defines metadata about the page.-->
     <title property="og:title dc:title">Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->    
     <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
-    <link rel="stylesheet" type="text/css" href="css/960.12containers.gs.css" />
 	<link rel="alternate" type="application/rdf+xml" title="Dave Bridges DOAC File" href="doac.rdf" />	
     <link rel="alternate" type="application/rss+xml" href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1XgES5aR9nBe6DkYaebLQnmq-sGRWaA7dkzrmIFzXQ1HFpuopF" title="PubMed Articles">	
     <link rel="alternate" type="application/rss+xml" href="http://en.wikipedia.org/w/index.php?title=Special:Contributions/Davebridges&feed=atom&limit=50&target=Davebridges&year=&month=" title="Wikipedia Contributions">
@@ -70,27 +74,31 @@
   </head>
 
 <body>
+<div class="container" id="all">
 <div id="menu">
+<div id="menubar" class="span-24">
 <ul class="lavaLampNoImage" id="2">
-    <li><a href="index.html" title="Home">Home</a></li>
-    <li><a href="interests.html" title="Research Interests">Research Interests</a></li>
-    <li><a href="cv.html" title="Curriculum Vitae">Curriculum Vitae</a></li>
-    <li><a href="software.html" title="Software">Software</a></li>
-	<li><a href="news.html" title="News">News</a></li>	
-	<li><a href="http://dave-bridges.blogspot.com" title="Blog">Blog</a></li>		
-    <li><a href="contact.html" title="Contact Information">Contact</a></li>		
+    <li class="span-3"><a href="index.html" title="Home">Home</a></li>
+    <li class="span-3"><a href="interests.html" title="Research Interests">Research Interests</a></li>
+    <li class="span-3 current"><a href="cv.html" title="Curriculum Vitae">Curriculum Vitae</a></li>
+    <li class="span-3"><a href="software.html" title="Software">Software</a></li>
+	<li class="span-3"><a href="news.html" title="News">News</a></li>	
+	<li class="span-3"><a href="http://dave-bridges.blogspot.com" title="Blog">Blog</a></li>		
+    <li class="span-3"><a href="contact.html" title="Contact Information">Contact</a></li>		
 </ul>
 </div>
 
 
-<div about="#davebridges" typeof="foaf:Person" class="container_12">
+<div about="#davebridges" typeof="foaf:Person" class="span-24">
 <!--This section defines semantic information about the Dave Bridges.-->
 <span property="foaf:name" content="Dave Bridges"></span>
-<h1 class="grid_12">Curriculum Vitae</h1>
+<h1>Curriculum Vitae</h1>
 
-<div class="container_12" id="education_training">
-<h2 class="grid_12">Training and Education</h2>
-<dl class="grid_8" rel="doac:education" id="education" owl:sameAs="http://davebridges.github.com/index.html#education">
+<div class="span-24"id="education_training">
+<h2>Training and Education</h2>
+<div class="span-12" rel="doac:education" id="education" owl:sameAs="http://davebridges.github.com/index.html#education">
+<h3>Undergraduate and Graduate Training</h3>
+    <dl>
 	<dt typof="doac:Degree" id="bsc" about="#bsc" owl:sameAs="http://davebridges.github.com/index.html#bsc">
 	    <span property="doac:title">Bachelor's of Science</span> in
 	    <span property="doac:subject">Biochemistry</span>.
@@ -111,8 +119,10 @@
 		<a property="foaf:organization" href="http://bio.ucalgary.ca">Department of Biological Sciences</a>, <a rel="foaf:organization" href="http://www.ucalgary.ca" resource="http://dbpedia.org/resource/University_of_Calgary">University of Calgary</a>.
     </dd>
 </dl>
-<img class="grid_4" src="img/ucalgary_logo.jpg" alt="University of Calgary"/>
-<div rel="doac:experience" id="experience" about="#davebridges" owl:sameAs="http://davebridges.github.com/index.html#experience" class="grid_8">
+</div>
+
+<div class="span-12 last" rel="doac:experience" id="experience" about="#davebridges" owl:sameAs="http://davebridges.github.com/index.html#experience">
+<h3>Post-Doctoral Training</h3>
 	<dl typof="doac:Experience" id="michigan-pdf" about="#mighigan-pdf" owl:sameAs="http://davebridges.github.com/index.html#michigan-pdf"> 
 	 		<dt property="doac:position">Postdoctoral Research Fellow</dt>
 			<dd>
@@ -122,14 +132,13 @@
 			<a property="foaf:group" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel">Dr. Alan Saltiel's Laboratory</a>
 			</dd>
 	</dl>
-</div>
-<img class="grid_2" src="img/lsi_logo.gif" alt="Life Sciences Institute"/>
-<img class="grid_2" src="img/umich_logo.gif" alt="University of Michigan"/>
+    </div>
+
 </div>
 
 <div rel="foaf:publications" id="publications" about="#davebridges" class="container_12">
-<h2 class="grid_12">Publications</h2>
-<div id="research" class="grid_6">
+<h2 class="span-24">Publications</h2>
+<div id="research" class="span-12">
 <h3>Research Articles</h3>
 <ol>
 	<li typeof="foaf:Document" id="MBC" about="#MBC">
@@ -240,10 +249,12 @@
         <a rel="owl:sameAs" href="http://dx.doi.org/10.1021/bi012045y"><img src="img/doi_logo.gif" alt="DOI" title="DOI" height="18px"/></a>
 	</li>
 </ol>
-<p>For a list of my publications see my profile on <a href="http://www.ncbi.nlm.nih.gov/pubmed?term=bridges%20dave">PubMed</a>, <a href="http://www.mendeley.com/profiles/dave-bridges/">Mendeley</a> or on <a href="http://www.researcherid.com/rid/A-8825-2010">ResearcherID.</a></p>
+<p>For a list of my publications see my profiles on <a href="http://www.ncbi.nlm.nih.gov/pubmed?term=bridges%20dave">PubMed</a>, <a href="http://scholar.google.com/citations?user=KkTucXYAAAAJ">Google Scholar, <a href="http://www.mendeley.com/profiles/dave-bridges/">Mendeley</a> or on <a href="http://www.researcherid.com/rid/A-8825-2010">ResearcherID.</a></p>
 <p>Here is a RSS feed of my articles on PubMed <a type="application/rss+xml" href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1XgES5aR9nBe6DkYaebLQnmq-sGRWaA7dkzrmIFzXQ1HFpuopF"> <img src="img/rss.png" alt="RSS Feed Icon"/></a></p>
 </div>
-<div id="reviewing" about="#davebridges" rel="doac:experience" class="grid_6">
+
+
+<div id="reviewing" about="#davebridges" rel="doac:experience" class="span-12 last">
 <h3>Review Articles</h3>
     <ol rel="foaf:publications" about="#davebridges">
      <li typeof="foaf:Document" id="STKE" about="#STKE">
@@ -262,31 +273,44 @@
 	</li>
 </ol>
 <h3>Faculty of 1000</h3>
-<a typof="doac:Experience" id="F1000" about="#F1000" href="http://f1000.com"><img src="img/f1000_logo.png" alt="Faculty of 1000"/></a>
-<p typof="doac:Experience" id="F1000" about="#F1000">I have been an <span property="doac:position">Associate Member</span> of the <span property="foaf:organization">Faculty of 1000</span> since <span property="doac:date-starts">November 2010</span>.  Click <a href="http://f1000.com/thefaculty/member/4676030982513436" title="F1000 Faculty Page">here</a> for my reviews.</p>
-</div>
-<div class="grid_6">
+<a typof="doac:Experience" id="F1000" about="#F1000" href="http://f1000.com"><img src="img/f1000_logo.png" alt="Faculty of 1000" class="span-6"/></a>
+<p class="span-6 last" typof="doac:Experience" id="F1000" about="#F1000">I have been an <span property="doac:position">Associate Member</span> of the <span property="foaf:organization">Faculty of 1000</span> since <span property="doac:date-starts">November 2010</span>.  Click <a href="http://f1000.com/thefaculty/member/4676030982513436" title="F1000 Faculty Page">here</a> for my reviews.</p>
 <h3>Other Contributions</h3>
-<a typof="doac:Experience" id ="wikipedia" about="wikipedia" href="http://wikipedia.org"><img src="img/wikipeda_logo.png" alt="Wikipedia"/></a>
-<p><a type="application/rss+xml" href="http://en.wikipedia.org/w/index.php?title=Special:Contributions/Davebridges&feed=atom&limit=50&target=Davebridges&year=&month="><img src="img/rss.png" alt="RSS Feed Icon"/></a>  Click <a href="http://en.wikipedia.org/wiki/Special:Contributions/Davebridges">here </a>for my wikipedia contributions.</p>
-</div>
-</div>
-<hr class="container_12 grid_12" />
-<div id="footer" class="container_12">
-<p class="grid_3"><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like></p>
-<div class="grid_3">
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Curriculum Vitae</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://davebridges.github.com" property="cc:attributionName" rel="cc:attributionURL">Dave Bridges</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
-</div>
-<div class="grid_3">
-<p about=""
-     resource="http://www.w3.org/TR/rdfa-syntax"
-     rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
-    <a href="http://validator.w3.org/check?uri=referer"><img
-        src="http://www.w3.org/Icons/valid-xhtml-rdfa"
-        alt="Valid XHTML + RDFa" height="31" width="88" /></a></p>
-<p><a href="http://sparql.captsolo.net/browser/browser.py?url=http://www.w3.org/2007/08/pyRdfa/extract?uri=http%3A//davebridges.github.com/index.html">Extract RDF</a></p>
+<a typof="doac:Experience" id ="wikipedia" about="wikipedia" href="http://wikipedia.org"><img src="img/wikipeda_logo.png" class="span-6" alt="Wikipedia"/></a>
+<p class="span-6 last"><a type="application/rss+xml" href="http://en.wikipedia.org/w/index.php?title=Special:Contributions/Davebridges&feed=atom&limit=50&target=Davebridges&year=&month="><img src="img/rss.png" alt="RSS Feed Icon"/></a>  Click <a href="http://en.wikipedia.org/wiki/Special:Contributions/Davebridges">here </a>for my wikipedia contributions.</p>
 </div>
 </div>
 
+<hr/>
+<div class="span-24" id="footer">
+<div class="span-3" id="google-plus>
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone href="http://davebridges.github.com"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</div>
+<div class="span-3" id="facebook-like">
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like>
+</div>
+<div class="span-3" id="linkedin-like">
+<script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
+</div>
+<div class="span-3" id="twitter">
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="dave_bridges">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+<div class="span-6 last">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Curriculum Vitae</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://davebridges.github.com" property="cc:attributionName" rel="cc:attributionURL">Dave Bridges</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div>
+
+</div>
+</div>
 </body>
 </html>
