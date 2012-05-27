@@ -59,6 +59,17 @@
     </head>
 
 <body>
+<!--This is the SDK script for the facebook like button-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
 <div class="container" id="all" itemscope itemtype="http://schema.org/ContactPage">
 <!-- Metadata about this page-->
     <nav id="menubar" class="span-24">
@@ -141,13 +152,11 @@
             <g:plusone href="http://davebridges.github.com" size="tall" annotation="bubble"></g:plusone>
         </div>
     
-        <div class="span-3" id="twitter-like">
+    <div class="fb-like span-3" id="faceboook-like" data-href="http://davebridges.github.com" data-send="false" data-width="450" data-show-faces="false"></div> 
+
+    <div class="span-3" id="twitter-like">
             <a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="dave_bridges" data-url="http://davebridges.github.com">Tweet</a>
             <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-        </div>
-        
-        <div class="span-3" id="facebook-like">
-                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="davebridges.github.com" layout="box_count" show_faces="true" width="450" font="lucida grande"></fb:like>
         </div>
         
         <div class="span-3" id="linkedin-like">
