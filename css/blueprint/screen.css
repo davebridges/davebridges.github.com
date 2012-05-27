@@ -42,6 +42,7 @@ p .left {margin:1.5em 1.5em 1.5em 0;padding:0;}
 p .right {margin:1.5em 0 1.5em 1.5em;padding:0;}
 a:focus, a:hover {color:#009eb8;}
 a {color:#009eb8;text-decoration: none;}
+a.no-color {color:#333333;}
 blockquote {margin:1.5em;color:#666;font-style:italic;}
 strong, dfn {font-weight:bold;}
 em, dfn {font-style:italic;}
