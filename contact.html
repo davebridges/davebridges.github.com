@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-      <meta charset="UTF-8">
+    <head>
 
- 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1446316-4']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-    <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen">
-    <script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $("#1, #2, #3").lavaLamp({
-                fx: "backout",
-                speed: 700,
-                click: function(event, menuItem) {
-                    return true;
-                }
-            });
-        });
-    </script>
-<!--This section defines metadata about the page.-->
-    <title>Contact Information</title>
-    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
-  <!--[if lt IE 8]>
-    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
-  <![endif]-->    
-    <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
-    <meta property="fb:admins" content="802530197">
-	<meta property="xml:lang" content="en">
-<!-- For google plus profile badge -->
+    <!--This section defines metadata about the page.-->
+        <title>Contact Information</title>
+        <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->    
+        <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
+        <link rel="meta" type="application/rdf+xml" title="Dave Bridges DOAC File" href="doac.rdf" />	
+    <!--This section sets openid information.  See http://lifehacker.com/5566470/how-to-set-up-openid-on-your-own-domain-->
+        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" >
+        <link rel="openid2.local_id" href="http://www.google.com/profiles/dave.bridges" >	
+    <!--This section defines RSS feeds-->
+        <link rel="alternate" type="application/rss+xml" title="Dave&#39; Blog - RSS" href="http://dave-bridges.blogspot.com/feeds/posts/default?alt=rss" /> 
+        <link rel="service.post" type="application/atom+xml" title="Dave&#39; Blog - Atom" href="http://www.blogger.com/feeds/2056279893985574641/posts/default" /> 
+    <!--This section includes all scripts for this page-->
         <script type="text/javascript">
-window.___gcfg = {lang: 'en'};
-(function() 
-{var po = document.createElement("script");
-po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(po, s);
-})();</script>
-    
-</head>
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-1446316-4']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+        <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen"/>
+        <script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+        <!--This script sets the menu bar lavalamp settings-->
+            <script type="text/javascript">
+                $(function() {
+                    $("#1, #2, #3").lavaLamp({
+                        fx: "backout",
+                        speed: 700,
+                        click: function(event, menuItem) {
+                            return true;
+                        }
+                    });
+                });
+             </script>
+        <!--This script is for the google plus button-->
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
+    </head>
 
 <body>
 <div class="container" id="all" itemscope itemtype="http://schema.org/ContactPage">
 <!-- Metadata about this page-->
-    <div id="menubar" class="span-24">
+    <nav id="menubar" class="span-24">
     <ul class="lavaLampNoImage" id="2">
         <li class="span-3"><a href="index.html" title="Home">Home</a></li>
         <li class="span-3"><a href="interests.html" title="Research Interests">Research Interests</a></li>
@@ -68,7 +71,7 @@ s.parentNode.insertBefore(po, s);
         <li class="span-3"><a href="http://dave-bridges.blogspot.com" title="Blog">Blog</a></li>		
         <li class="span-3 current"><a href="contact.html" title="Contact Information">Contact</a></li>		
     </ul>
-    </div>
+    </nav>
 
 
 <h1 class="span-24" property="name">Contact and Social Media Information</h1>
@@ -131,7 +134,7 @@ s.parentNode.insertBefore(po, s);
     </div>
     
     
-    <div class="span-24" id="footer">
+    <footer class="span-24" id="footer">
     
         <div class="span-3" id="google-plus">
         <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
@@ -151,17 +154,14 @@ s.parentNode.insertBefore(po, s);
             <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
         </div>
             <!--This describes metadata for the page.-->
-            
-        <div class="span-3" id="license-logo">
+             
+        <div class="span-12 last" id="metadata">
+            <p><span>Contact Information</span> was created and updated by <a href="https://plus.google.com/100623087480872908200?rel=author"><span itemprop="author creator">Dave Bridges</span></a>.  It was first published on <time itemprop="dateCreated" datetime="2010-08-30">August 30, 2010</time> and was updated on <time itemprop="dateModified" datetime="2012-04-05">April 5, 2012</time>.  It is licensed under a <a itemprop="http://www.w3.org/1999/xhtml/vocab#license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
             <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
         </div>
         
-        <div class="span-9 last" id="metadata">
-            <p><span>Contact Information</span> was created and updated by <a href="https://plus.google.com/100623087480872908200?rel=author"><span itemprop="author creator">Dave Bridges</span></a>.  It was first published on <time itemprop="dateCreated" datetime="2010-08-30">August 30, 2010</time> and was updated on <time itemprop="dateModified" datetime="2012-04-05">April 5, 2012</time>.  It is licensed under a <a itemprop="http://www.w3.org/1999/xhtml/vocab#license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
-        </div>
         
-        
-        </div>
+        </footer>
 </div>
 </body>
 </html>
