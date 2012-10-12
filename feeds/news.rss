@@ -8,6 +8,15 @@
 <atom:link href="http://davebridges.github.com/feeds/news.rss" rel="self" type="application/rss+xml" />
 <copyright>http://creativecommons.org/licenses/by/3.0/</copyright>
     <item>
+        <title>New Publication on the Role of PIKfyve</title>
+        <description>In collaboration with several groups at the University of Michigan, PNAS has recently published our article describing a PIKfyve hypomorphic mouse and our studies into the mechanisms of PI(3,5)P2 and PI(5)P metabolism.  A link to the paper is <a href="http://dx.doi.org/10.1073/pnas.1203106109">here</a>.  Congratulations to Sergey Zolov and the corresponding author Lois Weisman.</description>
+        <link>http://davebridges.github.com/news.html#pnas-zolov</link>
+		<guid>http://davebridges.github.com/news.html#pnas-zolov</guid>
+		<pubDate>Thu, 11 Oct 2012</pubDate>
+		<category>Publication</category>
+		<author>dave.bridges@gmail.com (Dave Bridges)</author>
+    </item>
+    <item>
         <title>Keystone Symposia Talk</title>
         <description>I have accepted an invitation to give a short talk at the upcoming Keystone Symposia on Inositol Signaling in Pharmacology and Disease (a joint meeting about PI3K Signaling Pathways) at the Keystone Resort in Keystone, Colorado from 2010-02-13 to 2010-02-18.  For now the title of my short talk will be Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function.  As this will be the first external presentation of this work I am very excited.</description>
         <link>http://davebridges.github.com/news.html#keystone</link>
