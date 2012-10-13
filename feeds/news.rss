@@ -10,17 +10,23 @@
     <item>
         <title>New Publication on the Role of PIKfyve</title>
         <description>In collaboration with several groups at the University of Michigan, PNAS has recently published our article describing a PIKfyve hypomorphic mouse and our studies into the mechanisms of PI(3,5)P2 and PI(5)P metabolism.  Congratulations to Sergey Zolov and the corresponding author Lois Weisman.</description>
-        <link>http://davebridges.github.com/news.html#pnas-zolov</link>
-		<guid>http://davebridges.github.com/news.html#pnas-zolov</guid>
+        <link>http://dx.doi.org/10.1073/pnas.1203106109</link>
 		<pubDate>Thu, 11 Oct 2012 14:00:00 EST</pubDate>
 		<category>Publication</category>
 		<author>dave.bridges@gmail.com (Dave Bridges)</author>
     </item>
     <item>
+        <title>New Article on the Regulation of TC10 by Caveolin</title>
+        <description>PLOS One has published our article on biochemistry of TC10 and its regulation by Caveolin in 3T3-L1 adipocytes.  This work would not have been possible without my collaborators Irfan, Louise and Natalie.</description>
+        <link>http://dx.doi.org/10.1371/journal.pone.0042451</link>
+		<pubDate>Fri, 10 Aug 2012 14:00:00 EST</pubDate>
+		<category>Publication</category>
+		<author>dave.bridges@gmail.com (Dave Bridges)</author>
+    </item>    
+    <item>
         <title>Keystone Symposia Talk</title>
         <description>I have accepted an invitation to give a short talk at the upcoming Keystone Symposia on Inositol Signaling in Pharmacology and Disease (a joint meeting about PI3K Signaling Pathways) at the Keystone Resort in Keystone, Colorado from 2010-02-13 to 2010-02-18.  For now the title of my short talk will be Endolysosomal Phosphatidylinositides and the Regulation of TORC1 Localization and Function.  As this will be the first external presentation of this work I am very excited.</description>
         <link>http://davebridges.github.com/news.html#keystone</link>
-		<guid>http://davebridges.github.com/news.html#keystone</guid>
 		<pubDate>Sun, 12 Dec 2010 14:00:00 EST</pubDate>
 		<category>Event</category>
 		<author>dave.bridges@gmail.com (Dave Bridges)</author>
