@@ -1,181 +1,44 @@
 <!DOCTYPE html>
 <html>
-      <meta charset="UTF-8">
 
-    <head>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Dave Bridges : ">
 
-    <!--This section defines metadata about the page.-->
-        <title>Dave Bridges Homepage</title>
-        <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-        <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
-    <!--[if lt IE 8]>
-        <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
-    <![endif]-->    
-        <link rel="stylesheet" type="text/css" href="css/davebridges.css" />
-    <!--This section sets openid information.  See http://lifehacker.com/5566470/how-to-set-up-openid-on-your-own-domain-->
-        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" >
-        <link rel="openid2.local_id" href="http://www.google.com/profiles/dave.bridges" >	
-    <!--This section defines RSS feeds-->
-        <link rel="alternate" type="application/rss+xml" title="Dave&#39; Blog - RSS" href="http://dave-bridges.blogspot.com/feeds/posts/default?alt=rss" /> 
-        <link rel="service.post" type="application/atom+xml" title="Dave&#39; Blog - Atom" href="http://www.blogger.com/feeds/2056279893985574641/posts/default" /> 
-    <!--These are the meta tags for facebook's opengraph protocol-->
-		<meta property="og:title" content="Dave Bridges&#039; Homepage" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://davebridges.github.com" />
-        <meta property="og:image" content="http://davebridges.github.com/img/profile_picture.jpg" />
-        <meta property="og:site_name" content="Dave Bridges&#039; Homepage" />
-        <meta property="fb:admins" content="802530197" />
-    	<meta property="og:description" content="Website for Dave Bridges, Research Fellow at the University of Michigan"/>       
-        
-    <!--This section includes all scripts for this page-->
-        <script type="text/javascript">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-1446316-4']);
-          _gaq.push(['_trackPageview']);
+    <title>Dave Bridges</title>
+  </head>
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+  <body>
 
-        </script>
-        <link rel="stylesheet" href="css/lavalamp_test.css" type="text/css" media="screen"/>
-        <script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-        <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
-        <!--This script sets the menu bar lavalamp settings-->
-            <script type="text/javascript">
-                $(function() {
-                    $("#1, #2, #3").lavaLamp({
-                        fx: "backout",
-                        speed: 700,
-                        click: function(event, menuItem) {
-                            return true;
-                        }
-                    });
-                });
-             </script>
-        <!--This script is for the google plus button-->
-                <script type="text/javascript">
-                  (function() {
-                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    po.src = 'https://apis.google.com/js/plusone.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                  })();
-                </script>
-    </head>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/davebridges">View on GitHub</a>
 
-<body>
-<!--This is the SDK script for the facebook like button-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+          <h1 id="project_title">Dave Bridges</h1>
+          <h2 id="project_tagline"></h2>
 
-
-<div class="container" id="all" itemscope itemtype="http://schema.org/AboutPage">
-    <nav id="menubar" class="span-24">
-        <ul class="lavaLampNoImage" id="2">
-            <li class="span-3 current"><a href="index.html" title="Home">Home</a></li>
-            <li class="span-3"><a href="interests.html" title="Research Interests">Research Interests</a></li>
-            <li class="span-3"><a href="cv.html" title="Curriculum Vitae">Curriculum Vitae</a></li>
-            <li class="span-3"><a href="software.html" title="Software">Software</a></li>
-            <li class="span-3"><a href="news.html" title="News">News</a></li>	
-            <li class="span-3"><a href="http://dave-bridges.blogspot.com" title="Blog">Blog</a></li>		
-            <li class="span-3"><a href="contact.html" title="Contact Information">Contact</a></li>		
-        </ul>
-    </nav>
-
-<!--This section defines semantic information about the Dave Bridges that is not contained within the page.-->
-    <article id="davebridges" class="span-12" itemprop="about" itemscope itemtype="http://schema.org/Person">
-    <h1 itemprop="name"><span itemprop="givenName">Dave</span> <span itemprop="familyName">Bridges</span></h1>
-    
-    <!--This is the legacy code for use of owl:sameAs, need to check if this is compatible with HTML5
-        <span rel="foaf:homepage v:homepage" resource="http://davebridges.github.com"/>
-        <span rel="owl:sameAs" resource="http://davebridges.github.com/cv.html#davebridges"/>
-        <span rel="owl:sameAs" resource="http://davebridges.github.com/contact.html#davebridges"/>
-        <span rel="owl:sameAs" resource="http://zillow.com/profile/davebridges"/>
-        <span rel="owl:sameAs" resource="http://en.wikipedia.org/wiki/User:Davebridges" />
-        <span rel="owl:sameAs" resource="http://davebridges.github.com/news.html#davebridges"/>
-        <span rel="owl:sameAs" resource="http://davebridges.github.com/interests.html#davebridges"/>
-        <span rel="owl:sameAs" resource="http://davebridges.github.com/software.html#davebridges"/>
-        <span rel="owl:sameAs" resource="http://www.lsi.umich.edu/facultyresearch/labs/saltiel/members#davebridges"/>
-        <span rel="owl:sameAs" resource="http://davebridges.github.com/#davebridges"/>
-        <span rel="owl:sameAs" resource="http://www.blogger.com/profile/12291507118158076247"/>
-        <span rel="owl:sameAs" resource="http://www.researchblogging.org/blogger/home/id/124" />
-        <span rel="owl:sameAs" resource="http://facebook.com/dave.bridges1"/>
-        <span rel="owl:sameAs" resource="http://www.google.com/profiles/dave.bridges1"/>
-        <span rel="owl:sameAs" resource="http://dblp.l3s.de/d2r/page/authors/Dave_Bridges"/>
-        <span rel="owl:sameAs" resource="http://umich.academia.edu/DaveBridges"/>
-        <span rel="owl:sameAs" resource="http://academic.research.microsoft.com/Author/10657716" />
-        <span rel="foaf:mbox_sha1sum" content="e95e655b084d6cd15ac47c5950f8ec5c2aa547ce"/>
-        <span rel="foaf:mbox_sha1sum" content="1abc45397d951b25631087bc14cd2afbd525b96f"/>
-        <span rel="foaf:mbox_sha1sum" content="96f9fd11cb4c43197b4f010fa50bb7cb71136c16"/>
-        <span rel="foaf:mbox_sha1sum" content="6ce8773dd3a42a1c0b10b03477ace0f390e2fdcc"/>
-        <span rel="foaf:mbox_sha1sum" content="9143a672ed20a26a5b0a28b38c42e612be7da84c"/>
-        <span rel="foaf:mbox_sha1sum" content="97376f29df681fbfac61329e9473f73d90f98889"/>
-    -->
-
-    <section id="general">
-        <p>I am ab <span itemprop="jobTitle">Assistant Professor </span> currently working at the <span id="UTHSC" itemprop="memberOf" itemscope itemtype="http://schema.org/EducationalOrganization"><a itemprop="name" class="no-color" href="http://uthsc.edu">University of Tennessee Health Science Center</a></span>, in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Memphis</span>, <span itemprop="addressRegion">Tennessee</span></span></span>.  I was born in Pickering, Ontario, Canada and moved to Calgary, Alberta, Canada  where I attended <span itemprop="alumniOf" itemscope itemtype="http://schema.org/HighSchool"><a itemprop="name" href="http://www.cssd.ab.ca/bishopcarroll">Bishop Carroll High School</a></span> and the <span itemprop="alumniOf" itemscope itemtype="http://schema.org/CollegeOrUniversity"><a class="no-color" itemprop="name" href="http://ucalgary.ca">University of Calgary</a></span>.</p>
-    </section>
-    
-    <section id="education">
-
-        <p id="bsc">I completed a Bachelor's of Science in Biochemistry in the <a class="no-color" href="http://bio.ucalgary.ca/">Department of Biological Sciences</a> of the <a class="no-color" href="http://www.ucalgary.ca">University of Calgary</a>.  During this time, I had my first laboratory experience as an undergraduate thesis student with Dr. David Waisman.
-        </p>
-        
-        <p id="phd" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
-        I did my doctoral work in Biochemistry in <a itemprop="name" href="http://www.bio.ucalgary.ca/contact/faculty/moorhead.html"><span itemprop="founder" itemscope itemtype="http://schema.org/Person"><span itemprop="honorificPrefix">Dr.</span><span itemprop="name"> <span itemprop="givenName">Greg</span> <span itemprop="familyName">Moorhead</span></span></span>'s Laboratory</a> in the <a class="no-color" href="http://bio.ucalgary.ca/">Department of Biological Sciences</a> at the <a class="no-color" href="http://www.ucalgary.ca">University of Calgary</a> in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Calgary</span>, <span itemprop="addressRegion">Alberta</span>, <span itemprop="addressCountry">Canada</span></span>.  Greg is an expert in protein phosphorylation, especially protein serine/threonine phosphatases.  During this time I worked on the identification and characterization of several protein phosphatases in mammalian cells.
-        </p>
-    </section>
-
-    <section id="experience">
-        <p id="michigan-pdf" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
-        From 2005 to 2013, I was  a Post-Doctoral Research Fellow in <a itemprop="name" href="http://www.lsi.umich.edu/facultyresearch/labs/saltiel"><span itemprop="founder" itemscope itemtype="http://schema.org/Person"><span itemprop="honorificPrefix">Dr.</span><span itemprop="name"> <span itemprop="givenName">Alan</span> <span itemprop="familyName">Saltiel</span></span></span>'s Laboratory</a> at the <a class="no-color" href="http://lsi.umich.edu">Life Sciences Institute</a> of the <a class="no-color" href="http://umich.edu">University of Michigan</a> in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Ann Arbor</span>, <span itemprop="addressRegion">Michigan</span></span>.  
-        
-        <p>In 2013 I joined the faculty of the <a itemprop-"name" href="http://uthsc.edu">University of Tennessee Health Science Center</a>.  Our lab webpage is available at <a href="http://bridgeslab.uthsc.edu"> bridgeslab.uthsc.edu</a>.
-    </section>
-    
-    </article>
-
-    <div class="span-12 last" id="map">
-        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;t=k&amp;msa=0&amp;msid=104004509808750863565.0004973c17659bf5d81ad&amp;ll=49.837982,-97.734375&amp;spn=78.834653,149.414063&amp;z=2&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;t=k&amp;msa=0&amp;msid=104004509808750863565.0004973c17659bf5d81ad&amp;ll=49.837982,-97.734375&amp;spn=78.834653,149.414063&amp;z=2&amp;source=embed" style="color:#0000FF;text-align:left">Training and Education</a> in a larger map</small>
+        </header>
     </div>
 
-    <hr/>    
-    
-    <footer class="span-24">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>For information about my research group please go to <a href="http://bridgeslab.uthsc.edu">bridgeslab.uthsc.edu</a></p>
+      </section>
+    </div>
 
-    <!-- Place this tag where you want the +1 button to render -->
-    <div class="span-3" id="google-plus">
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone href="http://davebridges.github.com" size="tall" annotation="bubble"></g:plusone>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
     </div>
-    
-    <div class="fb-like span-3" id="faceboook-like" data-href="http://davebridges.github.com" data-layout="box_count" data-send="false" data-width="450" data-show-faces="false"></div> 
-    
-    <div class="span-3" id="twitter">
-    <a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="dave_bridges" data-url="http://davebridges.github.com">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    </div>
-    
-    <div class="span-3" id="linkedin-like">
-    <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
-    </div>
-    
-   
-    <div class="span-12 last">
-        <p>Dave Bridges' Homepage was created and updated by <a class="no-color" href="https://plus.google.com/100623087480872908200?rel=author"><span itemprop="author creator editor">Dave Bridges</span></a>.  It was first published on <time itemprop="dateCreated" datetime="2010-08-30">August 30, 2010</time> and was updated on <time itemprop="dateModified" datetime="2014-07-04">July 4, 2014</time>.  It is licensed under a <a class="no-color" itemprop="http://www.w3.org/1999/xhtml/vocab#license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
-    </div>
-    
-    </footer>
 
-</div>
-</body>
+    
+
+  </body>
 </html>
